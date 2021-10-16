@@ -89,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				6463D97626DE01B8008D6B91 /* ViewControllers */,
+				64AA949C271AA24900A19510 /* Models */,
+				64AA949D271AA26700A19510 /* Containers */,
 				64AAF0C326DDEF890036CBC2 /* Storyboards */,
 				640016D026DB45B100B8BEC6 /* AppDelegate.swift */,
 				640016D226DB45B100B8BEC6 /* SceneDelegate.swift */,
@@ -116,7 +118,6 @@
 				6463D97426DDFC77008D6B91 /* ProfileViewController.swift */,
 				640016D426DB45B100B8BEC6 /* MainViewController.swift */,
 				64FC976E270CFAAB009ED40A /* DifficultyViewController.swift */,
-				64FB72C3270D5F8900875BB1 /* HomePagesController.swift */,
 				64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */,
 				64C11B8527198AAC0064399B /* SignupViewController.swift */,
 				64866BF1271A3E550000E0E0 /* PauseViewController.swift */,
@@ -129,6 +130,21 @@
 				64AA949A271A93E700A19510 /* GameOverViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64AA949C271AA24900A19510 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64AA949D271AA26700A19510 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				64FB72C3270D5F8900875BB1 /* HomePagesController.swift */,
+			);
+			path = Containers;
 			sourceTree = "<group>";
 		};
 		64AAF0C326DDEF890036CBC2 /* Storyboards */ = {
