@@ -320,7 +320,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48B-KA-nI6">
-                                <rect key="frame" x="125" y="494.5" width="164" height="38.5"/>
+                                <rect key="frame" x="136" y="494" width="142.5" height="38"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="20"/>
                                 <state key="normal" title="Eliminar perfil">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -329,7 +329,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Eliminar perfil">
                                             <attributes>
-                                                <font key="NSFont" size="20" name="Silka-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="20"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -341,7 +341,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-LD-iKY">
-                                <rect key="frame" x="144.5" y="421" width="125" height="43.5"/>
+                                <rect key="frame" x="153.5" y="421" width="107.5" height="43"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="24"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.98898416759999996" green="0.70386260749999996" blue="0.69559663530000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -350,7 +350,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Guardar">
                                             <attributes>
-                                                <font key="NSFont" size="24" name="Silka-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="24"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -477,16 +477,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="hXb-wz-hEK">
-                                <rect key="frame" x="83" y="321" width="248" height="178.5"/>
+                                <rect key="frame" x="83" y="321" width="248" height="141"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udn-Ud-Wlp">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Jugar de nuevo">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -498,13 +498,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCB-zl-Y1P">
-                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="91" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Salir">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -547,14 +547,14 @@
             <objects>
                 <viewController id="SY8-qk-qEf" customClass="GameOverViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHG-gO-1bg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="65" translatesAutoresizingMaskIntoConstraints="NO" id="UJB-Se-xhI">
-                                <rect key="frame" x="97" y="86" width="220" height="220"/>
+                                <rect key="frame" x="97" y="42" width="220" height="220"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="eIx-lD-mrh">
-                                <rect key="frame" x="131" y="128" width="152" height="136"/>
+                                <rect key="frame" x="131" y="84" width="152" height="136"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="dPh-jr-Ew9">
                                         <rect key="frame" x="0.0" y="0.0" width="152" height="48.5"/>
@@ -577,16 +577,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-Qh-bcQ">
-                                <rect key="frame" x="83" y="321" width="248" height="178.5"/>
+                                <rect key="frame" x="83" y="277" width="248" height="141"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeV-ef-7Bx">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Jugar de nuevo">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -598,13 +598,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it1-gM-PVz">
-                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="91" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Salir">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -617,7 +617,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcoiris (300 x 300 px)" translatesAutoresizingMaskIntoConstraints="NO" id="CqX-TJ-hIj">
-                                <rect key="frame" x="107" y="637" width="200" height="225"/>
+                                <rect key="frame" x="107" y="583" width="200" height="225"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xKN-WX-khk"/>
@@ -637,6 +637,7 @@
                             <constraint firstItem="CqX-TJ-hIj" firstAttribute="bottom" secondItem="xKN-WX-khk" secondAttribute="bottom" id="ocl-sg-zhr"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="tsN-Xj-On6"/>
                     <connections>
                         <segue destination="lKb-Uu-Kqy" kind="show" identifier="playArcoirisGO" id="A3P-No-o0e"/>
                         <segue destination="Zfj-nu-LqE" kind="show" identifier="backArcoirisGO" id="SME-Js-tur"/>
@@ -681,16 +682,16 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="hqs-bq-L8b">
-                                <rect key="frame" x="83" y="321" width="248" height="178.5"/>
+                                <rect key="frame" x="83" y="321" width="248" height="141"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGM-08-ye9">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Jugar de nuevo">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -702,13 +703,13 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ed-bA-sMh">
-                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="91" width="248" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Salir">
                                                     <attributes>
-                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="30"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -783,13 +784,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWA-Cc-C67">
-                                <rect key="frame" x="287" y="746.5" width="107" height="45.5"/>
+                                <rect key="frame" x="297.5" y="746.5" width="96.5" height="45.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Seguir">
                                             <attributes>
-                                                <font key="NSFont" size="26" name="Silka-Bold"/>
+                                                <font key="NSFont" metaFont="system" size="26"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
@@ -799,7 +800,7 @@
                                 </buttonConfiguration>
                             </button>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2S-Uo-9Ui">
-                                <rect key="frame" x="14" y="746.5" width="263" height="45.5"/>
+                                <rect key="frame" x="14" y="746.5" width="273.5" height="45.5"/>
                                 <connections>
                                     <segue destination="c4E-79-g76" kind="embed" id="E1i-BY-PMN"/>
                                 </connections>
@@ -1282,8 +1283,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instrucciones 374 x 114 px)" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-5C-ZYY">
                                 <rect key="frame" x="20" y="63" width="374" height="114"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
-                                <rect key="frame" x="158" y="125" width="99" height="37.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verde" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
+                                <rect key="frame" x="158" y="125" width="90.5" height="37.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="31"/>
                                 <color key="textColor" red="0.093918524680000004" green="0.29212698339999998" blue="0.93792843820000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1297,10 +1298,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29H-yA-gjH">
                                         <rect key="frame" x="0.0" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_azul_fuerte"/>
+                                        <connections>
+                                            <action selector="clickOption3:" destination="vVP-kW-OVR" eventType="touchUpInside" id="6sn-m9-am5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geR-0G-8wz">
                                         <rect key="frame" x="160" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_celeste"/>
+                                        <connections>
+                                            <action selector="clickOption4:" destination="vVP-kW-OVR" eventType="touchUpInside" id="ivc-7J-lle"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -1310,18 +1317,24 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSq-0C-nVO">
                                         <rect key="frame" x="0.0" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_amarillo"/>
+                                        <connections>
+                                            <action selector="clickOption1:" destination="vVP-kW-OVR" eventType="touchUpInside" id="2g8-Kx-KLi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gym-2Y-opB">
                                         <rect key="frame" x="160" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_verde"/>
+                                        <connections>
+                                            <action selector="clickOption2:" destination="vVP-kW-OVR" eventType="touchUpInside" id="Joh-Zz-mSS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="tupuedes" translatesAutoresizingMaskIntoConstraints="NO" id="h2T-VB-vJz">
                                 <rect key="frame" x="54.5" y="476" width="305" height="366"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntaje: 300" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="E4Y-XC-7c0">
-                                <rect key="frame" x="93" y="166" width="228" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntaje: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="E4Y-XC-7c0">
+                                <rect key="frame" x="143" y="166" width="129" height="32"/>
                                 <fontDescription key="fontDescription" name="Silka-Medium" family="Silka" pointSize="26"/>
                                 <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1362,7 +1375,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="GWa-0r-M3C"/>
                     <connections>
+                        <outlet property="btnOption1R2" destination="RSq-0C-nVO" id="Cem-zX-HFY"/>
+                        <outlet property="btnOption2R2" destination="gym-2Y-opB" id="xbv-Lg-dpN"/>
+                        <outlet property="btnOption3R2" destination="29H-yA-gjH" id="aJO-3Y-hw7"/>
+                        <outlet property="btnOption4R2" destination="geR-0G-8wz" id="6dQ-a5-TYn"/>
+                        <outlet property="ivLife1R2" destination="6MP-X3-fYh" id="1D8-wZ-Qwa"/>
+                        <outlet property="ivLife2R2" destination="spe-E2-QOe" id="7OW-Mb-eIX"/>
+                        <outlet property="ivLife3R2" destination="tZG-pd-o6P" id="fyQ-5n-F0p"/>
+                        <outlet property="lblColorR2" destination="yJe-Pr-Eg1" id="U72-Uo-c3K"/>
+                        <outlet property="lblScoreR2" destination="E4Y-XC-7c0" id="eLl-TQ-ClY"/>
                         <segue destination="j1Y-Jp-UXR" kind="showDetail" identifier="pauseArcoiris2" id="e41-gs-isG"/>
+                        <segue destination="SY8-qk-qEf" kind="show" identifier="toGOR2" id="Fxx-0f-KKS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osO-I0-WLl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2250,7 +2273,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Checar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2265,7 +2288,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Seguir">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2280,7 +2303,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Limpiar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2321,7 +2344,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Checar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2336,7 +2359,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Seguir">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2351,7 +2374,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Limpiar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2524,7 +2547,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Checar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2539,7 +2562,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Seguir">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2554,7 +2577,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content=" Limpiar">
                                                     <attributes>
-                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="21"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2586,10 +2609,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="9p0-g3-EtD">
-                                <rect key="frame" x="0.0" y="31" width="206" height="170"/>
+                                <rect key="frame" x="0.0" y="31" width="206" height="168.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0E-nz-hlN">
-                                        <rect key="frame" x="19.5" y="0.0" width="167" height="42"/>
+                                        <rect key="frame" x="29" y="0.0" width="148" height="41.5"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Verde">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2598,7 +2621,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="confundidos">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -2608,7 +2631,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbH-Fe-2Qh">
-                                        <rect key="frame" x="19.5" y="64" width="167" height="42"/>
+                                        <rect key="frame" x="29" y="63.5" width="148" height="41.5"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Naranja">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2617,7 +2640,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Naranja">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2626,7 +2649,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-GH-uB3">
-                                        <rect key="frame" x="19.5" y="128" width="167" height="42"/>
+                                        <rect key="frame" x="29" y="127" width="148" height="41.5"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Azul">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2635,7 +2658,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Azul">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Bold"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2667,7 +2690,7 @@
             <objects>
                 <viewController id="c4E-79-g76" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bGV-GP-bXa">
-                        <rect key="frame" x="0.0" y="0.0" width="263" height="45.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="273.5" height="45.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Muy bien!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="ed7-uU-emX">
@@ -2690,10 +2713,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Fxx-0f-KKS"/>
         <segue reference="xPN-M1-0Uf"/>
         <segue reference="5ss-DV-piH"/>
         <segue reference="laN-GN-n29"/>
-        <segue reference="5xa-Bg-4fh"/>
+        <segue reference="e41-gs-isG"/>
         <segue reference="A3P-No-o0e"/>
         <segue reference="HNK-UO-QTk"/>
         <segue reference="PZ3-Uy-qg1"/>
