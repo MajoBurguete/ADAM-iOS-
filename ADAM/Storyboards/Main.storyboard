@@ -867,6 +867,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="XIA-vi-DwV"/>
                     <connections>
+                        <outlet property="btnNextQ" destination="LWA-Cc-C67" id="POa-Il-Cr8"/>
+                        <outlet property="ivLife1S" destination="H4c-QJ-jSf" id="GGU-Bo-PH5"/>
+                        <outlet property="ivLife2S" destination="QEe-8D-K9y" id="V2h-sO-xmv"/>
+                        <outlet property="ivLife3S" destination="vPE-Tu-fsG" id="vq3-vK-iZG"/>
+                        <outlet property="tvQuestion" destination="mTb-HX-4ly" id="Gy8-0x-r6e"/>
+                        <outlet property="tvScoreS" destination="qte-04-j7X" id="xbM-r8-btN"/>
                         <segue destination="j1Y-Jp-UXR" kind="showDetail" identifier="pauseCuentoQ" id="PMX-Zm-EZc"/>
                     </connections>
                 </viewController>
@@ -1564,6 +1570,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="wGh-F3-YZo"/>
                     <connections>
+                        <outlet property="btnContinue" destination="PiD-uB-pDF" id="mpp-cQ-9Wm"/>
+                        <outlet property="tvStory" destination="Qad-BL-h2f" id="R3E-eF-jF2"/>
                         <segue destination="j1Y-Jp-UXR" kind="showDetail" identifier="pauseCuentoS" id="fQ5-bx-y6h"/>
                         <segue destination="j1Y-Jp-UXR" kind="showDetail" identifier="pauseCuentoS" id="DLl-51-T5i"/>
                     </connections>
@@ -1599,7 +1607,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HES-fz-55n">
-                                <rect key="frame" x="365" y="382" width="44" height="44"/>
+                                <rect key="frame" x="365" y="399" width="44" height="44"/>
                                 <state key="normal" image="forward">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
@@ -2577,10 +2585,10 @@
             </objects>
             <point key="canvasLocation" x="9049" y="949"/>
         </scene>
-        <!--View Controller-->
+        <!--Story View Controller-->
         <scene sceneID="geb-6N-7bZ">
             <objects>
-                <viewController id="yOY-Yo-LTe" sceneMemberID="viewController">
+                <viewController id="yOY-Yo-LTe" customClass="StoryViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fkb-eB-SBe">
                         <rect key="frame" x="0.0" y="0.0" width="206" height="312"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2657,15 +2665,20 @@
                             <constraint firstItem="9p0-g3-EtD" firstAttribute="centerX" secondItem="fkb-eB-SBe" secondAttribute="centerX" id="z1S-4n-u02"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnFirstOption" destination="L0E-nz-hlN" id="coW-Gz-llh"/>
+                        <outlet property="btnSecondOption" destination="AbH-Fe-2Qh" id="t3P-s5-ZTf"/>
+                        <outlet property="btnThirdOption" destination="MUR-GH-uB3" id="RBH-aF-7zC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OlE-jb-qlj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7709" y="1406"/>
         </scene>
-        <!--View Controller-->
+        <!--Story View Controller-->
         <scene sceneID="0tG-1O-yze">
             <objects>
-                <viewController id="c4E-79-g76" sceneMemberID="viewController">
+                <viewController id="c4E-79-g76" customClass="StoryViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bGV-GP-bXa">
                         <rect key="frame" x="0.0" y="0.0" width="263" height="45.5"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2683,6 +2696,9 @@
                             <constraint firstItem="ed7-uU-emX" firstAttribute="centerX" secondItem="bGV-GP-bXa" secondAttribute="centerX" id="wKH-68-9rh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tvResult" destination="ed7-uU-emX" id="DJu-i6-0w9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFI-7D-mxN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2691,9 +2707,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="xPN-M1-0Uf"/>
-        <segue reference="xsE-2L-5A8"/>
+        <segue reference="3Fd-Sf-907"/>
         <segue reference="laN-GN-n29"/>
-        <segue reference="2Tm-QA-DTx"/>
+        <segue reference="5xa-Bg-4fh"/>
         <segue reference="A3P-No-o0e"/>
         <segue reference="HNK-UO-QTk"/>
         <segue reference="PZ3-Uy-qg1"/>

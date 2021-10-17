@@ -25,6 +25,7 @@
 		64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA9496271A915400A19510 /* RainbowNVL2ViewController.swift */; };
 		64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */; };
 		64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA949A271A93E700A19510 /* GameOverViewController.swift */; };
+		64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */; };
 		64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C11B8527198AAC0064399B /* SignupViewController.swift */; };
 		64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C3270D5F8900875BB1 /* HomePagesController.swift */; };
 		64FB72C6270D6BCB00875BB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */; };
@@ -51,6 +52,7 @@
 		64AA9496271A915400A19510 /* RainbowNVL2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowNVL2ViewController.swift; sourceTree = "<group>"; };
 		64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowNVL1ViewController.swift; sourceTree = "<group>"; };
 		64AA949A271A93E700A19510 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModelNVL1.swift; sourceTree = "<group>"; };
 		64C06B8B270ADD6B00BEBE7A /* silka-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-light-webfont.ttf"; sourceTree = "<group>"; };
 		64C11B8527198AAC0064399B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		64FB72C3270D5F8900875BB1 /* HomePagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagesController.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		64AA949C271AA24900A19510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
+				64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
