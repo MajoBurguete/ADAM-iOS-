@@ -9,11 +9,15 @@ import UIKit
 
 class GameOverViewController: UIViewController {
     
+    var score = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        lblScoreGOR.text = String(score)
         
     }
     
+    @IBOutlet weak var lblScoreGOR: UILabel!
     
     @IBAction func playFormitasGO(_ sender: Any) {
         performSegue(withIdentifier: "playFormitasGO", sender: nil)
