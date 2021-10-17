@@ -11,6 +11,7 @@
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
 		6463D97526DDFC77008D6B91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463D97426DDFC77008D6B91 /* ProfileViewController.swift */; };
+		647B8426271CA6FF0095B774 /* StoryModelNVL2And3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */; };
 		64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64866BF1271A3E550000E0E0 /* PauseViewController.swift */; };
 		64866BF4271A420D0000E0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640016D926DB45B400B8BEC6 /* Assets.xcassets */; };
 		6487D6A0270C1A65006569F0 /* silka-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C06B8B270ADD6B00BEBE7A /* silka-light-webfont.ttf */; };
@@ -26,6 +27,7 @@
 		64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */; };
 		64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA949A271A93E700A19510 /* GameOverViewController.swift */; };
 		64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */; };
+		64C10B7C271BF5F300195A28 /* StoryQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C10B7B271BF5F300195A28 /* StoryQuestionViewController.swift */; };
 		64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C11B8527198AAC0064399B /* SignupViewController.swift */; };
 		64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C3270D5F8900875BB1 /* HomePagesController.swift */; };
 		64FB72C6270D6BCB00875BB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */; };
@@ -41,6 +43,7 @@
 		640016DC26DB45B400B8BEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		640016DE26DB45B400B8BEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6463D97426DDFC77008D6B91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModelNVL2And3.swift; sourceTree = "<group>"; };
 		64866BF1271A3E550000E0E0 /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
 		648B62CF271165FE00F6DD3E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		648B8F6E270C167200183127 /* silka-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-bold-webfont.ttf"; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		64AA949A271A93E700A19510 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModelNVL1.swift; sourceTree = "<group>"; };
 		64C06B8B270ADD6B00BEBE7A /* silka-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-light-webfont.ttf"; sourceTree = "<group>"; };
+		64C10B7B271BF5F300195A28 /* StoryQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryQuestionViewController.swift; sourceTree = "<group>"; };
 		64C11B8527198AAC0064399B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		64FB72C3270D5F8900875BB1 /* HomePagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagesController.swift; sourceTree = "<group>"; };
 		64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 		6463D97626DE01B8008D6B91 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				64C10B7F271C010B00195A28 /* StoryGame */,
 				6463D97426DDFC77008D6B91 /* ProfileViewController.swift */,
 				640016D426DB45B100B8BEC6 /* MainViewController.swift */,
 				64FC976E270CFAAB009ED40A /* DifficultyViewController.swift */,
@@ -126,7 +131,6 @@
 				64AA948C271A878D00A19510 /* ShapesNVL1ViewController.swift */,
 				64AA948E271A895200A19510 /* ShapesNVL2ViewController.swift */,
 				64AA9490271A8C0B00A19510 /* ShapesNVL3ViewController.swift */,
-				64AA9492271A8D0B00A19510 /* StoryViewController.swift */,
 				64AA9496271A915400A19510 /* RainbowNVL2ViewController.swift */,
 				64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */,
 				64AA949A271A93E700A19510 /* GameOverViewController.swift */,
@@ -138,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */,
+				647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -156,6 +161,15 @@
 				648B62CF271165FE00F6DD3E /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		64C10B7F271C010B00195A28 /* StoryGame */ = {
+			isa = PBXGroup;
+			children = (
+				64AA9492271A8D0B00A19510 /* StoryViewController.swift */,
+				64C10B7B271BF5F300195A28 /* StoryQuestionViewController.swift */,
+			);
+			path = StoryGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C10B7C271BF5F300195A28 /* StoryQuestionViewController.swift in Sources */,
 				6463D97526DDFC77008D6B91 /* ProfileViewController.swift in Sources */,
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
@@ -241,6 +256,7 @@
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
 				64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */,
+				647B8426271CA6FF0095B774 /* StoryModelNVL2And3.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
