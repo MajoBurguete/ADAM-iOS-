@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BDAE9EB271BAD9400CBD3B4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDAE9EA271BAD7100CBD3B4 /* libsqlite3.tbd */; };
+		3BDAE9F8271BAEE100CBD3B4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9ED271BAEE100CBD3B4 /* FMDatabaseQueue.m */; };
+		3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9EE271BAEE100CBD3B4 /* FMDatabase.m */; };
+		3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F0271BAEE100CBD3B4 /* FMDatabasePool.m */; };
+		3BDAE9FB271BAEE100CBD3B4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F4271BAEE100CBD3B4 /* FMResultSet.m */; };
+		3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F6271BAEE100CBD3B4 /* FMDatabaseAdditions.m */; };
+		3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FD271BAF5C00CBD3B4 /* User.swift */; };
+		3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */; };
+		3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -32,6 +41,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BDAE9EA271BAD7100CBD3B4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3BDAE9EC271BAEE000CBD3B4 /* ADAM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADAM-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BDAE9ED271BAEE100CBD3B4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3BDAE9EE271BAEE100CBD3B4 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3BDAE9EF271BAEE100CBD3B4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3BDAE9F0271BAEE100CBD3B4 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3BDAE9F1271BAEE100CBD3B4 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3BDAE9F2271BAEE100CBD3B4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3BDAE9F3271BAEE100CBD3B4 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3BDAE9F4271BAEE100CBD3B4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3BDAE9F5271BAEE100CBD3B4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3BDAE9F6271BAEE100CBD3B4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3BDAE9F7271BAEE100CBD3B4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3BDAE9FD271BAF5C00CBD3B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionFile.m; sourceTree = "<group>"; };
+		3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,17 +88,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDAE9EB271BAD9400CBD3B4 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDAE9E9271BAD7100CBD3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */,
+				3BDAE9F7271BAEE100CBD3B4 /* FMDatabase.h */,
+				3BDAE9EE271BAEE100CBD3B4 /* FMDatabase.m */,
+				3BDAE9EF271BAEE100CBD3B4 /* FMDatabaseAdditions.h */,
+				3BDAE9F6271BAEE100CBD3B4 /* FMDatabaseAdditions.m */,
+				3BDAE9F5271BAEE100CBD3B4 /* FMDatabasePool.h */,
+				3BDAE9F0271BAEE100CBD3B4 /* FMDatabasePool.m */,
+				3BDAE9F3271BAEE100CBD3B4 /* FMDatabaseQueue.h */,
+				3BDAE9ED271BAEE100CBD3B4 /* FMDatabaseQueue.m */,
+				3BDAE9F1271BAEE100CBD3B4 /* FMDB.h */,
+				3BDAE9F2271BAEE100CBD3B4 /* FMResultSet.h */,
+				3BDAE9F4271BAEE100CBD3B4 /* FMResultSet.m */,
+				3BDAE9EA271BAD7100CBD3B4 /* libsqlite3.tbd */,
+				3BDAE9EC271BAEE000CBD3B4 /* ADAM-Bridging-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		640016C426DB45B100B8BEC6 = {
 			isa = PBXGroup;
 			children = (
 				640016CF26DB45B100B8BEC6 /* ADAM */,
 				640016CE26DB45B100B8BEC6 /* Products */,
+				3BDAE9E9271BAD7100CBD3B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +183,8 @@
 		64AA949C271AA24900A19510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */,
+				3BDAE9FD271BAF5C00CBD3B4 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -186,6 +236,7 @@
 				TargetAttributes = {
 					640016CC26DB45B100B8BEC6 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1300;
 					};
 				};
 			};
@@ -230,18 +281,26 @@
 			files = (
 				6463D97526DDFC77008D6B91 /* ProfileViewController.swift in Sources */,
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
+				3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
+				3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */,
+				3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */,
+				3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
 				64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */,
+				3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
+				3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */,
+				3BDAE9FB271BAEE100CBD3B4 /* FMResultSet.m in Sources */,
 				64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */,
 				64AA948D271A878D00A19510 /* ShapesNVL1ViewController.swift in Sources */,
+				3BDAE9F8271BAEE100CBD3B4 /* FMDatabaseQueue.m in Sources */,
 				64FB72C6270D6BCB00875BB1 /* HomeViewController.swift in Sources */,
 				640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */,
 			);
@@ -383,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2UH455NP2;
 				INFOPLIST_FILE = ADAM/Info.plist;
@@ -392,6 +452,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -403,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2UH455NP2;
 				INFOPLIST_FILE = ADAM/Info.plist;
@@ -412,6 +475,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
