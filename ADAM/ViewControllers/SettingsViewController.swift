@@ -43,6 +43,7 @@ class SettingsViewController: UIViewController {
         
     }
     @IBAction func btnDeleteUSer(_ sender: Any) {
+        ModelManager.instance.deleteUser(userNum: user.userNum)
     }
 }
 
