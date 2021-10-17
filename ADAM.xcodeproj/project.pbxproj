@@ -18,6 +18,8 @@
 		3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */; };
 		4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */; };
 		4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */; };
+		4D32E675271C202A004ABC67 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E674271C202A004ABC67 /* UserProfileViewController.swift */; };
+		4D32E677271C23DF004ABC67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E676271C23DF004ABC67 /* SettingsViewController.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -61,6 +63,8 @@
 		3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
 		4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainbowModelNVL2.swift; sourceTree = "<group>"; };
+		4D32E674271C202A004ABC67 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		4D32E676271C23DF004ABC67 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +184,8 @@
 				64AA9496271A915400A19510 /* RainbowNVL2ViewController.swift */,
 				64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */,
 				64AA949A271A93E700A19510 /* GameOverViewController.swift */,
+				4D32E674271C202A004ABC67 /* UserProfileViewController.swift */,
+				4D32E676271C23DF004ABC67 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -301,12 +307,14 @@
 				3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
+				4D32E675271C202A004ABC67 /* UserProfileViewController.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
 				3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */,
 				3BDAE9FB271BAEE100CBD3B4 /* FMResultSet.m in Sources */,
 				64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */,
+				4D32E677271C23DF004ABC67 /* SettingsViewController.swift in Sources */,
 				64AA948D271A878D00A19510 /* ShapesNVL1ViewController.swift in Sources */,
 				3BDAE9F8271BAEE100CBD3B4 /* FMDatabaseQueue.m in Sources */,
 				64FB72C6270D6BCB00875BB1 /* HomeViewController.swift in Sources */,
