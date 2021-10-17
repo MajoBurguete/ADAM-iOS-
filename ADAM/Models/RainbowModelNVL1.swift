@@ -8,7 +8,20 @@
 import Foundation
 import UIKit
 
+extension UIColor {
+    static let amarillo: UIColor = UIColor(named: "amarillo_r")!
+    static let azul: UIColor = UIColor(named: "azul_fuerte_r")!
+    static let cafe: UIColor = UIColor(named: "cafe_r")!
+    static let morado: UIColor = UIColor(named: "morado_r")!
+    static let naranja: UIColor = UIColor(named: "naranja_r")!
+    static let rojo: UIColor = UIColor(named: "rojo_r")!
+    static let rosa: UIColor = UIColor(named: "rosa_r")!
+    static let verde: UIColor = UIColor(named: "verde_r")!
+}
+
+
 class RainbowModelNVL1 {
+    
     
     var score = 0
     var globalAnswer = -1;
@@ -39,14 +52,14 @@ class RainbowModelNVL1 {
         UIImage(named: "boton_verde.svg")!
     ]
     let colorValues: [UIColor] = [
-        .yellow,
-        .blue,
-        .brown,
-        .purple,
-        .orange,
-        .red,
-        .systemPink,
-        .green
+        .amarillo,
+        .azul,
+        .cafe,
+        .morado,
+        .naranja,
+        .rojo,
+        .rosa,
+        .verde
     ]
     
     func RandomIndex(value: Int) -> Int{
@@ -94,7 +107,6 @@ class RainbowModelNVL1 {
         while incorrectAnswer2 == correctAnswer || incorrectAnswer2 == incorrectAnswer1 {
             incorrectAnswer2 = RandomIndex(value: 2)
         }
-        (correctAnswer,incorrectAnswer1,incorrectAnswer2)
         if incorrectAnswer2 == 0 {
             imageView1 = figures[randomOption]
         }

@@ -27,6 +27,12 @@ class RainbowNVL1ViewController: UIViewController {
         
     }
     
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let score = modelRainbowNVL1.score
+        let destinationVC = segue.destination as? GameOverViewController
+        destinationVC?.score = score
+        
+    }
     
     @IBAction func pauseArcLevel1(_ sender: Any) {
         performSegue(withIdentifier: "pauseArcoiris1", sender: nil)
@@ -61,6 +67,7 @@ class RainbowNVL1ViewController: UIViewController {
         btnOption2R1.setImage(modelRainbowNVL1.imageView2, for: .normal)
         btnOption3R1.setImage(modelRainbowNVL1.imageView3, for: .normal)
     }
+
     
     func checkLives() {
         if modelRainbowNVL1.globalLives == 2 {
@@ -77,6 +84,7 @@ class RainbowNVL1ViewController: UIViewController {
             performSegue(withIdentifier: "toGOR1", sender: nil)
         }
     }
+    
     
     
 }
