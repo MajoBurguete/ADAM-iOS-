@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		64AA949C271AA24900A19510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				6463D97526DDFC77008D6B91 /* ProfileViewController.swift in Sources */,
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
+				4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
