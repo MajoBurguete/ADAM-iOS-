@@ -617,7 +617,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcoiris (300 x 300 px)" translatesAutoresizingMaskIntoConstraints="NO" id="CqX-TJ-hIj">
-                                <rect key="frame" x="107" y="617" width="200" height="225"/>
+                                <rect key="frame" x="107" y="583" width="200" height="225"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xKN-WX-khk"/>
@@ -637,7 +637,7 @@
                             <constraint firstItem="CqX-TJ-hIj" firstAttribute="bottom" secondItem="xKN-WX-khk" secondAttribute="bottom" id="ocl-sg-zhr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="xXU-ok-1sQ"/>
+                    <navigationItem key="navigationItem" id="tsN-Xj-On6"/>
                     <connections>
                         <outlet property="lblScoreGOR" destination="fo0-fR-tKJ" id="zn4-ol-paM"/>
                         <segue destination="lKb-Uu-Kqy" kind="show" identifier="playArcoirisGO" id="A3P-No-o0e"/>
@@ -1302,8 +1302,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instrucciones 374 x 114 px)" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-5C-ZYY">
                                 <rect key="frame" x="20" y="63" width="374" height="114"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VERDE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
-                                <rect key="frame" x="158" y="125" width="99" height="37.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verde" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
+                                <rect key="frame" x="158" y="125" width="90.5" height="37.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="31"/>
                                 <color key="textColor" red="0.093918524680000004" green="0.29212698339999998" blue="0.93792843820000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1317,10 +1317,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29H-yA-gjH">
                                         <rect key="frame" x="0.0" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_azul_fuerte"/>
+                                        <connections>
+                                            <action selector="clickOption3:" destination="vVP-kW-OVR" eventType="touchUpInside" id="6sn-m9-am5"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geR-0G-8wz">
                                         <rect key="frame" x="160" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_celeste"/>
+                                        <connections>
+                                            <action selector="clickOption4:" destination="vVP-kW-OVR" eventType="touchUpInside" id="ivc-7J-lle"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -1330,18 +1336,24 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSq-0C-nVO">
                                         <rect key="frame" x="0.0" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_amarillo"/>
+                                        <connections>
+                                            <action selector="clickOption1:" destination="vVP-kW-OVR" eventType="touchUpInside" id="2g8-Kx-KLi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gym-2Y-opB">
                                         <rect key="frame" x="160" y="0.0" width="119" height="114"/>
                                         <state key="normal" image="boton_verde"/>
+                                        <connections>
+                                            <action selector="clickOption2:" destination="vVP-kW-OVR" eventType="touchUpInside" id="Joh-Zz-mSS"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="tupuedes" translatesAutoresizingMaskIntoConstraints="NO" id="h2T-VB-vJz">
                                 <rect key="frame" x="54.5" y="476" width="305" height="366"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntaje: 300" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="E4Y-XC-7c0">
-                                <rect key="frame" x="93" y="166" width="228" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntaje: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="E4Y-XC-7c0">
+                                <rect key="frame" x="143" y="166" width="129" height="32"/>
                                 <fontDescription key="fontDescription" name="Silka-Medium" family="Silka" pointSize="26"/>
                                 <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1382,7 +1394,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="GWa-0r-M3C"/>
                     <connections>
+                        <outlet property="btnOption1R2" destination="RSq-0C-nVO" id="Cem-zX-HFY"/>
+                        <outlet property="btnOption2R2" destination="gym-2Y-opB" id="xbv-Lg-dpN"/>
+                        <outlet property="btnOption3R2" destination="29H-yA-gjH" id="aJO-3Y-hw7"/>
+                        <outlet property="btnOption4R2" destination="geR-0G-8wz" id="6dQ-a5-TYn"/>
+                        <outlet property="ivLife1R2" destination="6MP-X3-fYh" id="1D8-wZ-Qwa"/>
+                        <outlet property="ivLife2R2" destination="spe-E2-QOe" id="7OW-Mb-eIX"/>
+                        <outlet property="ivLife3R2" destination="tZG-pd-o6P" id="fyQ-5n-F0p"/>
+                        <outlet property="lblColorR2" destination="yJe-Pr-Eg1" id="U72-Uo-c3K"/>
+                        <outlet property="lblScoreR2" destination="E4Y-XC-7c0" id="eLl-TQ-ClY"/>
                         <segue destination="j1Y-Jp-UXR" kind="showDetail" identifier="pauseArcoiris2" id="e41-gs-isG"/>
+                        <segue destination="SY8-qk-qEf" kind="show" identifier="toGOR2" id="Fxx-0f-KKS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="osO-I0-WLl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -2710,10 +2732,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Fxx-0f-KKS"/>
         <segue reference="xPN-M1-0Uf"/>
         <segue reference="SME-Js-tur"/>
         <segue reference="laN-GN-n29"/>
-        <segue reference="5xa-Bg-4fh"/>
+        <segue reference="e41-gs-isG"/>
         <segue reference="A3P-No-o0e"/>
         <segue reference="HNK-UO-QTk"/>
         <segue reference="PZ3-Uy-qg1"/>
