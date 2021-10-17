@@ -16,6 +16,7 @@
 		3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FD271BAF5C00CBD3B4 /* User.swift */; };
 		3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */; };
 		3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */; };
+		4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -57,6 +58,7 @@
 		3BDAE9FD271BAF5C00CBD3B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionFile.m; sourceTree = "<group>"; };
 		3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */,
 				3BDAE9FD271BAF5C00CBD3B4 /* User.swift */,
+				4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */,
 				3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */,
 				3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */,
+				4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
