@@ -120,6 +120,7 @@ class ModelManager: NSObject {
             let _ = sharedInstanceMM.database!.executeUpdate("UPDATE user SET scoreC=?WHERE userNum=?", withArgumentsIn: [newScore, userNum])
         }
         sharedInstanceMM.database!.close()
+        
     }
     
 }
