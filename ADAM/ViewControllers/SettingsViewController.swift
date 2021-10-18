@@ -15,18 +15,32 @@ class SettingsViewController: UIViewController {
     var image = ""
     var mini = ""
 
+    @IBOutlet weak var lblValidation: UILabel!
+    @IBOutlet weak var btnSaveS: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         tfUsernameS.text = user.username
         if image == "" {
             ivProfilePicS.image = UIImage(named: user.userImage)
-        }
-        else {
+        } else {
             ivProfilePicS.image = UIImage(named: image)
-
+        }
+        
+        tfUsernameS.addTarget(self, action: #selector(validateField(textfield:)), for: .editingChanged)
+    }
+    
+    @objc func validateField(textfield: UITextField) {
+        if textfield.text?.count == 0 {
+            btnSaveS.isEnabled = false
+        } else if textfield.text?.count ?? 1 >= 10 {
+            btnSaveS.isEnabled = false
+            lblValidation.textColor = UIColor(named: "rojo_r")
+        } else {
+            btnSaveS.isEnabled = true
+            lblValidation.textColor = UIColor(named: "verde")
         }
     }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let screen = 1
         let destinationVC = segue.destination as? ProfileViewController

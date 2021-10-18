@@ -13,16 +13,33 @@ class SignupViewController: UIViewController {
     var mini = ""
     
     
+    @IBOutlet weak var lblValidate: UILabel!
+    @IBOutlet weak var btnEnter: UIButton!
     @IBOutlet weak var btnEditL: UIButton!
     @IBOutlet weak var tfUsername: UITextField!
     @IBOutlet weak var ivProfilePic: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        btnEnter.isEnabled = false
         ivProfilePic.image = UIImage(named: image)!
         
+        tfUsername.addTarget(self, action: #selector(validateField(textfield:)), for: .editingChanged)
         
     }
+    
+    @objc func validateField(textfield: UITextField) {
+        if textfield.text?.count == 0 {
+            btnEnter.isEnabled = false
+        } else if textfield.text?.count ?? 1 >= 10 {
+            btnEnter.isEnabled = false
+            lblValidate.textColor = UIColor(named: "rojo_r")
+        } else {
+            btnEnter.isEnabled = true
+            lblValidate.textColor = UIColor(named: "verde")
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let screen = 1
         let destinationVC = segue.destination as? ProfileViewController
