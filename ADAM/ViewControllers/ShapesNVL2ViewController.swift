@@ -51,7 +51,7 @@ class ShapesNVL2ViewController: UIViewController {
     var originalCenterDrag4: CGPoint!
     var lives = 3
     var score = 0
-    
+    var newHigh = false
     override func viewDidLoad() {
         super.viewDidLoad()
         modelNVL2.clearModel()
@@ -152,6 +152,7 @@ class ShapesNVL2ViewController: UIViewController {
         if segue.destination is GameOverViewController{
             let destinationVC = segue.destination as? GameOverViewController
             destinationVC?.score = score
+            destinationVC?.newHigh = newHigh
         }
       
     }
@@ -464,6 +465,11 @@ class ShapesNVL2ViewController: UIViewController {
     @IBAction func btnContinueNVL2(_ sender: Any) {
         /*En caso de haberse agotado las vidas, se obtienen los parámetros necesarios para poder hacer la evaluación de la Puntuación*/
         if lives == 0 {
+            let user = ModelManager.instance.findCurrentUSer()
+            if user.scoreF < score {
+                newHigh = true
+                ModelManager.instance.setCurrentScore(userNum: user.userNum, newScore: score, game: 1)
+            }
             performSegue(withIdentifier: "formitasGameOverNVL2", sender: nil)
         }
         //Si no, si el estado del modelo es verdadero, se llama al método "hideSequence"
