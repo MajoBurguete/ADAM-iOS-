@@ -21,8 +21,8 @@ extension UIColor {
 
 
 class RainbowModelNVL1 {
-    
-    
+
+
     var score = 0
     var globalAnswer = -1;
     var globalLives = 3;
@@ -61,12 +61,12 @@ class RainbowModelNVL1 {
         .rosa,
         .verde
     ]
-    
+
     func RandomIndex(value: Int) -> Int{
         return Int.random(in: 0...value)
-        
+
     }
-    
+
     func gameRound() {
         let randomColor = RandomIndex(value: 7)
         colorText = colors[randomColor]
@@ -117,7 +117,7 @@ class RainbowModelNVL1 {
             imageView3 = figures[randomOption]
         }
     }
-    
+
     func checkAnswer(answer: Int){
         if answer == globalAnswer {
             score += 10 * globalLives
@@ -127,5 +127,5 @@ class RainbowModelNVL1 {
         }
         globalAnswer = -1
     }
-    
+
 }
