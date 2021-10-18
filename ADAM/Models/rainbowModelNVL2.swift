@@ -8,14 +8,6 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    static let amarillo: UIColor = UIColor(named: "amarillo_r")!
-    static let azul: UIColor = UIColor(named: "azul_fuerte_r")!
-    static let cafe: UIColor = UIColor(named: "cafe_r")!
-    static let morado: UIColor = UIColor(named: "morado_r")!
-    static let naranja: UIColor = UIColor(named: "naranja_r")!
-    static let rojo: UIColor = UIColor(named: "rojo_r")!
-    static let rosa: UIColor = UIColor(named: "rosa_r")!
-    static let verde: UIColor = UIColor(named: "verde_r")!
     static let celeste: UIColor = UIColor(named: "celeste_r")!
     static let beige: UIColor = UIColor(named: "beige_r")!
     static let fucsia: UIColor = UIColor(named: "fucsia_r")!

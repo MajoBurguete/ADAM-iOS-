@@ -16,4 +16,5 @@ class User: NSObject {
     var scoreR = Int()
     var scoreF = Int()
     var scoreC = Int()
+    var current = Int()
 }

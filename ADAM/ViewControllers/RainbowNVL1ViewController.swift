@@ -19,6 +19,7 @@ class RainbowNVL1ViewController: UIViewController {
     @IBOutlet weak var lblColorR1: UILabel!
     
     let modelRainbowNVL1 = RainbowModelNVL1()
+    var newhigh = false
     
     override func viewDidLoad() {
         
@@ -81,6 +82,10 @@ class RainbowNVL1ViewController: UIViewController {
             btnOption1R1.isEnabled = false
             btnOption2R1.isEnabled = false
             btnOption3R1.isEnabled = false
+            let user = ModelManager.instance.findCurrentUSer()
+            if user.scoreR < modelRainbowNVL1.score {
+                ModelManager.instance.setCurrentScore(userNum: user.userNum, newScore: modelRainbowNVL1.score, game: 0)
+            }
             performSegue(withIdentifier: "toGOR1", sender: nil)
         }
     }

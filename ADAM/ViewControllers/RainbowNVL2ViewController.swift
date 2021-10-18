@@ -84,6 +84,10 @@ class RainbowNVL2ViewController: UIViewController {
             btnOption2R2.isEnabled = false
             btnOption3R2.isEnabled = false
             btnOption4R2.isEnabled = false
+            let user = ModelManager.instance.findCurrentUSer()
+            if user.scoreR < modelRainbowNVL2.score {
+                ModelManager.instance.setCurrentScore(userNum: user.userNum, newScore: modelRainbowNVL2.score, game: 0)
+            }
             performSegue(withIdentifier: "toGOR2", sender: nil)
         }
     }
