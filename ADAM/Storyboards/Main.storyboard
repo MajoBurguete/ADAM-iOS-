@@ -320,6 +320,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="iIu-aI-Vfv"/>
                     <connections>
+                        <outlet property="btnUnlock1" destination="NiS-Ia-sE3" id="Yqi-Yy-dTf"/>
+                        <outlet property="btnUnlock2" destination="sjD-mG-Owj" id="Ycy-Lp-v12"/>
+                        <outlet property="btnUnlock3" destination="OEN-5s-dKK" id="Bh7-qY-8cG"/>
                         <segue destination="prH-TO-tcu" kind="show" identifier="returnPP" id="xwd-ks-vSB"/>
                         <segue destination="DYd-50-36Y" kind="show" identifier="returnS" id="8m2-Se-lVA"/>
                     </connections>
@@ -674,7 +677,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcoiris (300 x 300 px)" translatesAutoresizingMaskIntoConstraints="NO" id="CqX-TJ-hIj">
-                                <rect key="frame" x="107" y="583" width="200" height="225"/>
+                                <rect key="frame" x="107" y="617" width="200" height="225"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xKN-WX-khk"/>
@@ -784,7 +787,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuento (200 x 200 px)" translatesAutoresizingMaskIntoConstraints="NO" id="Ioh-To-IV3">
-                                <rect key="frame" x="107" y="659" width="200" height="149"/>
+                                <rect key="frame" x="107" y="693" width="200" height="149"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GF6-uZ-0Oc"/>
@@ -837,7 +840,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWA-Cc-C67">
-                                <rect key="frame" x="217.5" y="712.5" width="176.5" height="45.5"/>
+                                <rect key="frame" x="217.5" y="746.5" width="176.5" height="45.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
                                     <attributedString key="attributedTitle">
@@ -958,7 +961,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ti3-9c-Low">
-                                <rect key="frame" x="20" y="735.5" width="177.5" height="0.0"/>
+                                <rect key="frame" x="20" y="769.5" width="177.5" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="32"/>
                                 <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2006,7 +2009,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zkw-RG-LGA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5184.057971014493" y="77.678571428571431"/>
+            <point key="canvasLocation" x="6493" y="78"/>
         </scene>
         <!--Difficulty View Controller-->
         <scene sceneID="S0L-oP-ihx">
@@ -2781,14 +2784,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RSY-EV-liQ"/>
         <segue reference="xPN-M1-0Uf"/>
         <segue reference="j7X-or-ufT"/>
         <segue reference="laN-GN-n29"/>
         <segue reference="5xa-Bg-4fh"/>
         <segue reference="Pm2-2h-raU"/>
         <segue reference="A3P-No-o0e"/>
-        <segue reference="HNK-UO-QTk"/>
+        <segue reference="8m2-Se-lVA"/>
         <segue reference="Xc2-w5-VXw"/>
         <segue reference="xwd-ks-vSB"/>
         <segue reference="SDU-cO-KGt"/>

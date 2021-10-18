@@ -19,6 +19,8 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var btnSaveS: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
         tfUsernameS.text = user.username
         if image == "" {
             ivProfilePicS.image = UIImage(named: user.userImage)

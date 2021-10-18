@@ -1,12 +1,15 @@
-//
-//  ViewController.swift
-//  ADAM
-//
-//  Created by Maria jose Burguete euan on 28/08/21.
-//
+/* Integración de seguridad informática en redes y sistemas de software (TC2007B.1)
+   ADAM: Aplicación para el Desarrollo de Atención y Memoria
+   Fecha: 17/10/2021
+   Creado por: María José Burguete Euán
+               Aarón Cortés García
+               Marco Flamenco Andrade
+               Daniela Hernández y Hernández
+*/
 
 import UIKit
 
+//Clase inicial creada para desplegar los perfiles creados e iniciar sesion para entrar a la app
 class MainViewController: UIViewController {
     
 
