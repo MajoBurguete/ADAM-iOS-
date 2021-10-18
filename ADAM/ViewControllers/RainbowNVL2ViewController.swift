@@ -33,11 +33,12 @@ class RainbowNVL2ViewController: UIViewController {
     
     //se manda la puntuacion a la pantalla de gameOver para poder desplegarla para el usuario
     override func prepare(for segue:     UIStoryboardSegue, sender: Any?) {
-         let score = modelRainbowNVL2.score
-         let destinationVC = segue.destination as? GameOverViewController
+        let game = "arcoiris"
+        let score = modelRainbowNVL2.score
+        let destinationVC = segue.destination as? GameOverViewController
         destinationVC?.score = score
         destinationVC?.newHigh = newHigh
-      
+        destinationVC?.game = game
     }
 
     /*Cada boton que representa una opción de respuesta llama a los métodos "checkAnswer", "checkLives" y "setLayoutAtributes" del modelo, pasando como parámetro el entero correspondiente, asi como modificar la etiqueta del puntaje*/

@@ -8,34 +8,24 @@ class StoryQuestionViewController: UIViewController {
     //Se instancian todas las variables necesarias para el sistema del Controlador
     
     let model1 = StoryModelNVL1.instance
-    
     let model2and3 = StoryModelNVL2And3.instance
-        
     @IBOutlet weak var ivLife1S: UIImageView!
-    
     @IBOutlet weak var ivLife2S: UIImageView!
-    
     @IBOutlet weak var ivLife3S: UIImageView!
-    
     @IBOutlet weak var tvQuestion: UITextView!
-    
     @IBOutlet weak var tvScoreS: UILabel!
-    
     @IBOutlet weak var tvResult: UILabel!
-    
     @IBOutlet weak var btnNextQ: UIButton!
-    
     @IBOutlet weak var btnFirstOption: UIButton!
-    
     @IBOutlet weak var btnSecondOption: UIButton!
-    
     @IBOutlet weak var btnThirdOption: UIButton!
-    
-    
+        
     var lives = 3
     var difficulty = 0
     var score = 0
     var strScore: String!
+    var newHigh = false
+    let user = ModelManager.instance.findCurrentUSer()
     
     // Se envia la dificultad como parametro a la case StoryQuestionViewController
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
@@ -43,6 +33,7 @@ class StoryQuestionViewController: UIViewController {
         if segue.destination is GameOverViewController {
             let vc = segue.destination as? GameOverViewController
             vc?.score = score
+            vc?.newHigh = newHigh
             vc?.game = "cuento"
         }
     }
@@ -300,6 +291,10 @@ class StoryQuestionViewController: UIViewController {
             }
             else {
                 /*En caso de haberse agotado las vidas o haber pasado la última pregunta, se obtienen los parámetros necesarios para poder hacer la evaluación de la Puntuación*/
+                if user.scoreC < score {
+                    newHigh = true
+                    ModelManager.instance.setCurrentScore(userNum: user.userNum, newScore: score, game: 2)
+                }
                 performSegue(withIdentifier: "CuentoGameOver", sender: nil)
             }
         }
@@ -325,6 +320,10 @@ class StoryQuestionViewController: UIViewController {
             }
             else {
                 /*En caso de haberse agotado las vidas o haber pasado la última pregunta, se obtienen los parámetros necesarios para poder hacer la evaluación de la Puntuación*/
+                if user.scoreC < score {
+                    newHigh = true
+                    ModelManager.instance.setCurrentScore(userNum: user.userNum, newScore: score, game: 2)
+                }
                 performSegue(withIdentifier: "CuentoGameOver", sender: nil)
             }
         }
