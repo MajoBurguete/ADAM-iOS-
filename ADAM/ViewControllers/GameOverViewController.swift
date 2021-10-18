@@ -10,11 +10,29 @@ import UIKit
 class GameOverViewController: UIViewController {
     
     var score = 0
+    var game = ""
+    
+    @IBOutlet weak var lblNewHighCuento: UILabel!
+    @IBOutlet weak var tvScoreCuento: UILabel!
+    
+    
+    @IBOutlet weak var lblNewHighArcoiris: UILabel!
+    @IBOutlet weak var tvScoreArcoiris: UILabel!
+    
+    @IBOutlet weak var lblNewHighFormitas: UILabel!
+    @IBOutlet weak var tvScoreFormitas: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblScoreGOR.text = String(score)
-        
+        if game == "cuento" {
+            tvScoreCuento.text = String(score)
+        }
+        if game == "arcoiris" {
+            tvScoreCuento.text = String(score)
+        }
+        if game == "formitas" {
+            tvScoreCuento.text = String(score)
+        }     
     }
     
     @IBOutlet weak var lblScoreGOR: UILabel!
