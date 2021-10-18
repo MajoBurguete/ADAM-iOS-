@@ -17,9 +17,9 @@
 		4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */; };
 		4D32E675271C202A004ABC67 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E674271C202A004ABC67 /* UserProfileViewController.swift */; };
 		4D32E677271C23DF004ABC67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E676271C23DF004ABC67 /* SettingsViewController.swift */; };
-		4DFDACCE271D0F9300E6C182 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCB271D0F9300E6C182 /* ModelManager.swift */; };
-		4DFDACCF271D0F9300E6C182 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCC271D0F9300E6C182 /* User.swift */; };
-		4DFDACD0271D0F9300E6C182 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */; };
+		4DFDACD2271D1D3400E6C182 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACD1271D1D3400E6C182 /* User.swift */; };
+		4DFDACD4271D1D4400E6C182 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACD3271D1D4400E6C182 /* ModelManager.swift */; };
+		4DFDACD6271D1D5000E6C182 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACD5271D1D5000E6C182 /* RainbowModelNVL1.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -65,9 +65,9 @@
 		4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainbowModelNVL2.swift; sourceTree = "<group>"; };
 		4D32E674271C202A004ABC67 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		4D32E676271C23DF004ABC67 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		4DFDACCB271D0F9300E6C182 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelManager.swift; path = ../../../ModelManager.swift; sourceTree = "<group>"; };
-		4DFDACCC271D0F9300E6C182 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../User.swift; sourceTree = "<group>"; };
-		4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RainbowModelNVL1.swift; path = ../../../RainbowModelNVL1.swift; sourceTree = "<group>"; };
+		4DFDACD1271D1D3400E6C182 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4DFDACD3271D1D4400E6C182 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		4DFDACD5271D1D5000E6C182 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,10 +207,10 @@
 		64AA949C271AA24900A19510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4DFDACD5271D1D5000E6C182 /* RainbowModelNVL1.swift */,
+				4DFDACD3271D1D4400E6C182 /* ModelManager.swift */,
+				4DFDACD1271D1D3400E6C182 /* User.swift */,
 				64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */,
-				4DFDACCB271D0F9300E6C182 /* ModelManager.swift */,
-				4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */,
-				4DFDACCC271D0F9300E6C182 /* User.swift */,
 				647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */,
 				4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */,
 			);
@@ -321,20 +321,20 @@
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
 				3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
-				4DFDACCE271D0F9300E6C182 /* ModelManager.swift in Sources */,
 				3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */,
 				3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */,
-				4DFDACCF271D0F9300E6C182 /* User.swift in Sources */,
 				3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */,
+				4DFDACD2271D1D3400E6C182 /* User.swift in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
-				4DFDACD0271D0F9300E6C182 /* RainbowModelNVL1.swift in Sources */,
 				64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */,
+				4DFDACD6271D1D5000E6C182 /* RainbowModelNVL1.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
 				64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */,
+				4DFDACD4271D1D4400E6C182 /* ModelManager.swift in Sources */,
 				647B8426271CA6FF0095B774 /* StoryModelNVL2And3.swift in Sources */,
 				4D32E675271C202A004ABC67 /* UserProfileViewController.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
@@ -488,13 +488,13 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2UH455NP2;
+				DEVELOPMENT_TEAM = DLLUF935SW;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01732313.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -511,13 +511,13 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2UH455NP2;
+				DEVELOPMENT_TEAM = DLLUF935SW;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01732313.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

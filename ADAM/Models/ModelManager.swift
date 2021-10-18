@@ -9,13 +9,17 @@ import Foundation
 
 let sharedInstanceMM = ModelManager()
 
+
+
 class ModelManager: NSObject {
     var database: FMDatabase?
     
     class var instance: ModelManager {
-        let documentsFolder = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
-        let path = documentsFolder.appending("UserDB.sqlite")
-        sharedInstanceMM.database = FMDatabase(path: path)
+        let fileManager = FileManager.default
+        let docURL = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
+
+        let databaseURL = docURL.appendingPathComponent("UserDB.db")
+        sharedInstanceMM.database = FMDatabase(path: databaseURL.absoluteString)
         return sharedInstanceMM
     }
     

@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class SignupViewController: UIViewController {
     
     var image = ""
@@ -21,6 +22,8 @@ class SignupViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
         btnEnter.isEnabled = false
         ivProfilePic.image = UIImage(named: image)!
         
@@ -57,6 +60,11 @@ class SignupViewController: UIViewController {
             tfUsername.text = "Error"
 
         }
+    }
+    
+    @objc func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
     
 }

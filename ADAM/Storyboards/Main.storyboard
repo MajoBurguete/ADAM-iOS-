@@ -27,17 +27,17 @@
             <objects>
                 <viewController title="Main View" id="BYZ-38-t0r" customClass="MainViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agrega otro           perfil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNL-Pr-QUi">
-                                <rect key="frame" x="128.5" y="593.5" width="157" height="44"/>
+                                <rect key="frame" x="128.5" y="505.5" width="157" height="44"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="18"/>
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1rV-LE-eex">
-                                <rect key="frame" x="56" y="245.5" width="302" height="135"/>
+                                <rect key="frame" x="56" y="157.5" width="302" height="135"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpe-vw-4PH">
                                         <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
@@ -58,7 +58,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-nk-QJz">
-                                <rect key="frame" x="139.5" y="450.5" width="135" height="135"/>
+                                <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
                                 <color key="tintColor" red="0.97844213250000001" green="0.80727559329999998" blue="0.54858672620000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="23"/>
                                 <connections>
@@ -66,31 +66,31 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elige tu perfil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="G4s-Ar-bTb">
-                                <rect key="frame" x="76.5" y="138" width="261" height="47.5"/>
+                                <rect key="frame" x="76.5" y="50" width="261" height="47.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="39"/>
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-9x-ybn">
-                                <rect key="frame" x="223" y="387.5" width="135" height="18.5"/>
+                                <rect key="frame" x="223" y="299.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPb-vT-FS6">
-                                <rect key="frame" x="139.5" y="592.5" width="135" height="18.5"/>
+                                <rect key="frame" x="139.5" y="504.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb4-80-CYR">
-                                <rect key="frame" x="56" y="387.5" width="135" height="18.5"/>
+                                <rect key="frame" x="56" y="299.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoJ-qX-iBo">
-                                <rect key="frame" x="139.5" y="450.5" width="135" height="135"/>
+                                <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
                                 <state key="normal" backgroundImage="PP (3)"/>
                                 <connections>
                                     <action selector="toHome3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFB-7d-f72"/>
@@ -454,8 +454,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Presta atención y elige la opción correcta" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="PCc-TS-ff8">
-                                <rect key="frame" x="78" y="98" width="277" height="120"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presta atención y elige la opción correcta" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="PCc-TS-ff8">
+                                <rect key="frame" x="74.5" y="30" width="277" height="120"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -674,7 +674,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arcoiris (300 x 300 px)" translatesAutoresizingMaskIntoConstraints="NO" id="CqX-TJ-hIj">
-                                <rect key="frame" x="107" y="617" width="200" height="225"/>
+                                <rect key="frame" x="107" y="583" width="200" height="225"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xKN-WX-khk"/>
@@ -784,7 +784,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuento (200 x 200 px)" translatesAutoresizingMaskIntoConstraints="NO" id="Ioh-To-IV3">
-                                <rect key="frame" x="107" y="693" width="200" height="149"/>
+                                <rect key="frame" x="107" y="659" width="200" height="149"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GF6-uZ-0Oc"/>
@@ -837,7 +837,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWA-Cc-C67">
-                                <rect key="frame" x="217.5" y="746.5" width="176.5" height="45.5"/>
+                                <rect key="frame" x="217.5" y="712.5" width="176.5" height="45.5"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
                                     <attributedString key="attributedTitle">
@@ -958,7 +958,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="Ti3-9c-Low">
-                                <rect key="frame" x="20" y="769.5" width="177.5" height="0.0"/>
+                                <rect key="frame" x="20" y="735.5" width="177.5" height="0.0"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="32"/>
                                 <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1032,7 +1032,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EaW-B9-Ltd">
                                         <rect key="frame" x="0.0" y="0.0" width="248" height="91"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="39"/>
-                                        <state key="normal" title="Facil" backgroundImage="boton_naranja2">
+                                        <state key="normal" title="Fácil" backgroundImage="boton_naranja2">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -1116,7 +1116,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3B-KE-nb7">
                                         <rect key="frame" x="0.0" y="0.0" width="248" height="91"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="39"/>
-                                        <state key="normal" title="Facil" backgroundImage="boton_rosa2">
+                                        <state key="normal" title="Fácil" backgroundImage="boton_rosa2">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
@@ -1366,8 +1366,8 @@
                                     <action selector="pauseArcLevel1:" destination="MW0-JN-tD3" eventType="touchUpInside" id="Pi1-Qn-PPK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntaje: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="LPW-Lx-0hm">
-                                <rect key="frame" x="146" y="176" width="129" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje: 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="LPW-Lx-0hm">
+                                <rect key="frame" x="142.5" y="176" width="129" height="36"/>
                                 <fontDescription key="fontDescription" name="Silka-Medium" family="Silka" pointSize="26"/>
                                 <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1451,8 +1451,8 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instrucciones 374 x 114 px)" translatesAutoresizingMaskIntoConstraints="NO" id="D4j-5C-ZYY">
                                 <rect key="frame" x="20" y="63" width="374" height="114"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verde" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
-                                <rect key="frame" x="158" y="125" width="90.5" height="37.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJe-Pr-Eg1">
+                                <rect key="frame" x="162" y="125" width="90.5" height="37.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="31"/>
                                 <color key="textColor" red="0.093918524680000004" green="0.29212698339999998" blue="0.93792843820000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1520,6 +1520,7 @@
                             <constraint firstItem="h2T-VB-vJz" firstAttribute="width" secondItem="Caq-Pe-1p1" secondAttribute="width" multiplier="0.736715" id="JaO-Eg-JMU"/>
                             <constraint firstItem="6MP-X3-fYh" firstAttribute="top" secondItem="spe-E2-QOe" secondAttribute="top" id="MdU-5p-qsf"/>
                             <constraint firstItem="h2T-VB-vJz" firstAttribute="centerX" secondItem="YmK-oS-G7V" secondAttribute="centerX" id="POL-kI-Kpm"/>
+                            <constraint firstItem="yJe-Pr-Eg1" firstAttribute="centerX" secondItem="D4j-5C-ZYY" secondAttribute="centerX" id="Q13-zB-LP9"/>
                             <constraint firstItem="3G0-J2-Pzj" firstAttribute="top" secondItem="D4j-5C-ZYY" secondAttribute="bottom" constant="15" id="TMa-4e-BLy"/>
                             <constraint firstItem="E4Y-XC-7c0" firstAttribute="centerX" secondItem="YmK-oS-G7V" secondAttribute="centerX" id="VhX-xl-mPP"/>
                             <constraint firstItem="D4j-5C-ZYY" firstAttribute="width" secondItem="Caq-Pe-1p1" secondAttribute="width" multiplier="0.903382" id="YgF-7H-blU"/>
@@ -1530,7 +1531,6 @@
                             <constraint firstItem="3G0-J2-Pzj" firstAttribute="top" secondItem="T20-un-I89" secondAttribute="bottom" constant="-143" id="gGK-bk-mtF"/>
                             <constraint firstItem="tZG-pd-o6P" firstAttribute="leading" secondItem="spe-E2-QOe" secondAttribute="trailing" constant="3" id="gSl-us-yYC"/>
                             <constraint firstItem="D4j-5C-ZYY" firstAttribute="centerX" secondItem="YmK-oS-G7V" secondAttribute="centerX" id="gxf-SM-AeY"/>
-                            <constraint firstItem="yJe-Pr-Eg1" firstAttribute="leading" secondItem="D4j-5C-ZYY" secondAttribute="trailing" constant="-236" id="hLc-2H-mEm"/>
                             <constraint firstItem="yJe-Pr-Eg1" firstAttribute="top" secondItem="D4j-5C-ZYY" secondAttribute="bottom" constant="-52" id="i0b-5g-cbr"/>
                             <constraint firstItem="spe-E2-QOe" firstAttribute="top" secondItem="tZG-pd-o6P" secondAttribute="top" id="ms9-ee-0Vz"/>
                             <constraint firstItem="3G0-J2-Pzj" firstAttribute="top" secondItem="E4Y-XC-7c0" secondAttribute="bottom" constant="-10" id="o82-Cx-xMh"/>
@@ -1630,8 +1630,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ahora contesta la pregunta:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="UbI-ww-T79">
-                                <rect key="frame" x="32" y="95" width="350" height="124"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahora contesta la pregunta:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="UbI-ww-T79">
+                                <rect key="frame" x="32" y="30" width="350" height="77.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1792,7 +1792,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HES-fz-55n">
-                                <rect key="frame" x="365" y="382" width="44" height="44"/>
+                                <rect key="frame" x="365" y="399" width="44" height="44"/>
                                 <state key="normal" image="forward">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
@@ -1896,8 +1896,8 @@
                                                 <color key="textColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2K-oh-4di">
-                                                <rect key="frame" x="0.0" y="23" width="38" height="24.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2K-oh-4di">
+                                                <rect key="frame" x="0.0" y="23" width="13" height="24.5"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="21"/>
                                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1929,14 +1929,14 @@
                                     <constraint firstAttribute="height" constant="230" id="xmK-iI-w60"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbG-p3-vgO">
-                                <rect key="frame" x="87.5" y="159.5" width="47" height="30.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbG-p3-vgO">
+                                <rect key="frame" x="119" y="159.5" width="16" height="30.5"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KbR-ft-jCZ">
-                                <rect key="frame" x="48" y="555" width="309" height="125"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KbR-ft-jCZ">
+                                <rect key="frame" x="48" y="485" width="309" height="125"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="16" translatesAutoresizingMaskIntoConstraints="NO" id="L1V-j4-Alv">
                                         <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
@@ -1950,8 +1950,8 @@
                                                 <color key="textColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtX-qg-3l0">
-                                                <rect key="frame" x="0.0" y="23" width="40" height="26"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtX-qg-3l0">
+                                                <rect key="frame" x="0.0" y="23" width="13.5" height="26"/>
                                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="22"/>
                                                 <color key="textColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1968,16 +1968,16 @@
                             <constraint firstItem="V6l-D1-MMO" firstAttribute="top" secondItem="oyE-TR-h6a" secondAttribute="bottom" constant="5" id="1Iz-kz-Ks9"/>
                             <constraint firstItem="oyE-TR-h6a" firstAttribute="leading" secondItem="Sqn-qw-oW8" secondAttribute="leading" constant="55" id="1UO-2Y-zn6"/>
                             <constraint firstItem="lWq-A5-Uy4" firstAttribute="leading" secondItem="V6l-D1-MMO" secondAttribute="leading" constant="-22" id="3MF-TU-3Zw"/>
+                            <constraint firstItem="KbR-ft-jCZ" firstAttribute="trailing" secondItem="lWq-A5-Uy4" secondAttribute="trailing" id="9aB-5T-uOg"/>
                             <constraint firstItem="V6l-D1-MMO" firstAttribute="width" secondItem="Um4-oV-9pD" secondAttribute="width" multiplier="0.724638" id="AYZ-hZ-Ube"/>
                             <constraint firstItem="KbR-ft-jCZ" firstAttribute="top" secondItem="lWq-A5-Uy4" secondAttribute="bottom" constant="15" id="CBg-CC-vgG"/>
                             <constraint firstItem="KbR-ft-jCZ" firstAttribute="leading" secondItem="Sqn-qw-oW8" secondAttribute="leading" constant="48" id="Jc2-r6-iEa"/>
                             <constraint firstItem="oyE-TR-h6a" firstAttribute="top" secondItem="Sqn-qw-oW8" secondAttribute="top" constant="20" id="WGy-Lq-5Yb"/>
-                            <constraint firstItem="V6l-D1-MMO" firstAttribute="leading" secondItem="HbG-p3-vgO" secondAttribute="trailing" constant="-77.5" id="g11-Iw-urG"/>
+                            <constraint firstItem="V6l-D1-MMO" firstAttribute="leading" secondItem="HbG-p3-vgO" secondAttribute="centerX" constant="-70" id="g0J-gl-r80"/>
                             <constraint firstItem="lWq-A5-Uy4" firstAttribute="trailing" secondItem="V6l-D1-MMO" secondAttribute="trailing" id="m0u-Vi-e8l"/>
                             <constraint firstItem="V6l-D1-MMO" firstAttribute="top" secondItem="HbG-p3-vgO" secondAttribute="bottom" constant="-105" id="pNw-kX-1dy"/>
                             <constraint firstItem="V6l-D1-MMO" firstAttribute="centerX" secondItem="Sqn-qw-oW8" secondAttribute="centerX" id="vd5-zj-blv"/>
                             <constraint firstItem="lWq-A5-Uy4" firstAttribute="top" secondItem="V6l-D1-MMO" secondAttribute="bottom" constant="2" id="vmO-25-IIy"/>
-                            <constraint firstItem="KbR-ft-jCZ" firstAttribute="trailing" secondItem="V6l-D1-MMO" secondAttribute="trailing" id="zay-dl-U64"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -2781,16 +2781,17 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="RSY-EV-liQ"/>
         <segue reference="xPN-M1-0Uf"/>
-        <segue reference="z6P-6m-vES"/>
+        <segue reference="j7X-or-ufT"/>
         <segue reference="laN-GN-n29"/>
-        <segue reference="PMX-Zm-EZc"/>
-        <segue reference="Fxx-0f-KKS"/>
+        <segue reference="5xa-Bg-4fh"/>
+        <segue reference="Pm2-2h-raU"/>
         <segue reference="A3P-No-o0e"/>
-        <segue reference="8m2-Se-lVA"/>
+        <segue reference="HNK-UO-QTk"/>
         <segue reference="Xc2-w5-VXw"/>
         <segue reference="xwd-ks-vSB"/>
-        <segue reference="IBG-Fn-p0J"/>
+        <segue reference="SDU-cO-KGt"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="15" width="153" height="153"/>
