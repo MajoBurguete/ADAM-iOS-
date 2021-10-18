@@ -10,9 +10,9 @@
 import UIKit
 
 //Clase creada para desplegar los iconos a escoger para el usuario
-
 class ProfileViewController: UIViewController{
-    //Declaración de todas las variables necesarias para el funcionamiento del clase
+    
+    //Declaración y ligado de todos los componentes necesarios para el funcionamiento del clase con su contraparte en el storyboard
     var image = ""
     var mini = ""
     var screen = 0

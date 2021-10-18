@@ -12,7 +12,7 @@ import UIKit
 //Clase inicial creada para desplegar los perfiles creados e iniciar sesion para entrar a la app
 class MainViewController: UIViewController {
     
-
+    //Declaración y ligado de todos los componentes necesarios para el funcionamiento del clase con su contraparte en el storyboard
     @IBOutlet weak var btnAddProfile: UILabel!
     @IBOutlet weak var btnProfile1: UIButton!
     @IBOutlet weak var btnProfile2: UIButton!
@@ -28,6 +28,7 @@ class MainViewController: UIViewController {
         
     }
     
+    // funcion que se utiliza para mandar La imagen a desplegar en la pantalla de registro para que el usuario observe antes de escoger.
     override func prepare(for segue:     UIStoryboardSegue, sender: Any?) {
         let image = "PP (4).svg"
         let mini = "PP46.svg"
@@ -37,9 +38,10 @@ class MainViewController: UIViewController {
       
     }
     
+    //funcion que realiza acciones al momento de cargar el ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //se esconden todos los usuarios inicialmente
         btnAddProfile.isHidden = true
         lblAddProfile.isHidden = true
         btnProfile1.isHidden = true
@@ -49,7 +51,9 @@ class MainViewController: UIViewController {
         lblProfile2.isHidden = true
         lblProfile3.isHidden = true
         
+        //se consigue el numero de usuarios
         let userNum = ModelManager.instance.countUsers()
+        //dependiendo de el numero de usuarios se despliegan los componentes en pantalla con los datos previamente guardados, habilitando o no la posibilidad de agregar nuevos perfiles
         if userNum == 0 {
             performSegue(withIdentifier: "toSignUp", sender: nil)
         }
@@ -81,20 +85,21 @@ class MainViewController: UIViewController {
             btnAddProfile.isHidden = false
             lblAddProfile.isHidden = false
         }
-        
-        
-        
     }
+    //funcion que al presionar el boton lo manda con el usuario elegido, asignandolo como el usuario actual
     @IBAction func toHome1(_ sender: UIButton) {
         ModelManager.instance.setCurrentUSer(userNum: 1)
     }
+    //funcion que al presionar el boton lo manda con el usuario elegido, asignandolo como el usuario actual
     @IBAction func toHome2(_ sender:
                            UIButton) {
         ModelManager.instance.setCurrentUSer(userNum: 2)
     }
+    //funcion que al presionar el boton lo manda con el usuario elegido, asignandolo como el usuario actual
     @IBAction func toHome3(_ sender: UIButton) {
         ModelManager.instance.setCurrentUSer(userNum: 3)
     }
+    //funcion que al presionar el boton lo manda a la pantalla de registro para crear un nuevo usuario
     @IBAction func toSignUp(_ sender: Any) {
         performSegue(withIdentifier: "toSignUp", sender: nil)
     }

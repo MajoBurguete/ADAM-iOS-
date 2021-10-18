@@ -700,7 +700,6 @@
                     <navigationItem key="navigationItem" id="tsN-Xj-On6"/>
                     <connections>
                         <outlet property="lblNewHighArcoiris" destination="YfL-sW-dxF" id="lVh-Ts-Csf"/>
-                        <outlet property="lblScoreGOR" destination="fo0-fR-tKJ" id="zn4-ol-paM"/>
                         <outlet property="tvScoreArcoiris" destination="fo0-fR-tKJ" id="3jk-d9-SNN"/>
                         <segue destination="lKb-Uu-Kqy" kind="show" identifier="playArcoirisGO" id="A3P-No-o0e"/>
                         <segue destination="Zfj-nu-LqE" kind="show" identifier="backArcoirisGO" id="SME-Js-tur"/>
@@ -2785,7 +2784,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="xPN-M1-0Uf"/>
-        <segue reference="j7X-or-ufT"/>
+        <segue reference="SME-Js-tur"/>
         <segue reference="laN-GN-n29"/>
         <segue reference="5xa-Bg-4fh"/>
         <segue reference="Pm2-2h-raU"/>

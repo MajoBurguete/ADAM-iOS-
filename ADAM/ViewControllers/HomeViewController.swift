@@ -11,8 +11,6 @@ import UIKit
 let sharedInstanceH = HomeViewController()
 
 //Clase creada para desplegar el carrusel de juegos a elegir, el perfil con su nombre e icono, y la barra con botones para configuracion y regresar a selección de perfiles.
-
-
 class HomeViewController: UIViewController {
     
     //Declaración y ligado de todos los componentes necesarios para el funcionamiento del clase con su contraparte en el storyboard
