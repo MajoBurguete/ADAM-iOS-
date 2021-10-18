@@ -13,7 +13,7 @@ class GameOverViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        lblScoreGOR.text = String(score)
+        //lblScoreGOR.text = String(score)
         
     }
     

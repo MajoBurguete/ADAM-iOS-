@@ -37,6 +37,9 @@
 		64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA9498271A938500A19510 /* RainbowNVL1ViewController.swift */; };
 		64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AA949A271A93E700A19510 /* GameOverViewController.swift */; };
 		64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C11B8527198AAC0064399B /* SignupViewController.swift */; };
+		64C6B8FD271D1E630096ED70 /* ShapesModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6B8FC271D1E630096ED70 /* ShapesModelNVL1.swift */; };
+		64E933F1271D4FC000CDB9A1 /* ShapesModelNVL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E933F0271D4FC000CDB9A1 /* ShapesModelNVL2.swift */; };
+		64E933F3271D4FEA00CDB9A1 /* ShapesModelNVL3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E933F2271D4FEA00CDB9A1 /* ShapesModelNVL3.swift */; };
 		64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C3270D5F8900875BB1 /* HomePagesController.swift */; };
 		64FB72C6270D6BCB00875BB1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */; };
 		64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FC976E270CFAAB009ED40A /* DifficultyViewController.swift */; };
@@ -82,6 +85,9 @@
 		64AA949A271A93E700A19510 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
 		64C06B8B270ADD6B00BEBE7A /* silka-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-light-webfont.ttf"; sourceTree = "<group>"; };
 		64C11B8527198AAC0064399B /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		64C6B8FC271D1E630096ED70 /* ShapesModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesModelNVL1.swift; sourceTree = "<group>"; };
+		64E933F0271D4FC000CDB9A1 /* ShapesModelNVL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesModelNVL2.swift; sourceTree = "<group>"; };
+		64E933F2271D4FEA00CDB9A1 /* ShapesModelNVL3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesModelNVL3.swift; sourceTree = "<group>"; };
 		64FB72C3270D5F8900875BB1 /* HomePagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagesController.swift; sourceTree = "<group>"; };
 		64FB72C5270D6BCB00875BB1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		64FC976E270CFAAB009ED40A /* DifficultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController.swift; sourceTree = "<group>"; };
@@ -191,6 +197,9 @@
 				3BDAE9FD271BAF5C00CBD3B4 /* User.swift */,
 				4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */,
 				4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */,
+				64C6B8FC271D1E630096ED70 /* ShapesModelNVL1.swift */,
+				64E933F0271D4FC000CDB9A1 /* ShapesModelNVL2.swift */,
+				64E933F2271D4FEA00CDB9A1 /* ShapesModelNVL3.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -288,9 +297,11 @@
 				6463D97526DDFC77008D6B91 /* ProfileViewController.swift in Sources */,
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
 				3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */,
+				64E933F1271D4FC000CDB9A1 /* ShapesModelNVL2.swift in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
 				3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */,
 				3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */,
+				64C6B8FD271D1E630096ED70 /* ShapesModelNVL1.swift in Sources */,
 				3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */,
 				4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
@@ -301,6 +312,7 @@
 				3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
+				64E933F3271D4FEA00CDB9A1 /* ShapesModelNVL3.swift in Sources */,
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
