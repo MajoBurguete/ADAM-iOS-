@@ -100,7 +100,7 @@ class StoryModelNVL1 {
 
         let range1  = (paragraph as NSString).range(of: firstVariant)
         let finalParagraph = NSMutableAttributedString(string:paragraph)
-        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.verdeP, range: range1)
+        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.verdePa, range: range1)
         
         let finalParNSS = finalParagraph.string as NSString;
         
@@ -166,11 +166,8 @@ class StoryModelNVL1 {
 }
 
 extension UIColor {
-    static let verde: UIColor = UIColor(named: "verde_fuerte")!
-    static let naranja: UIColor = UIColor(named: "naranja")!
-    static let azul: UIColor = UIColor(named: "azul_r")!
-    static let verdeP: UIColor = UIColor(named: "verde_palido")!
-    static let rojo: UIColor = UIColor(named: "rojo_r")!
+    static let naranjaP: UIColor = UIColor(named: "naranja")!
+    static let verdePa: UIColor = UIColor(named: "verde_palido")!
 }
 
 extension UIFont {

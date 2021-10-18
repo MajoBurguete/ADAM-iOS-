@@ -41,7 +41,7 @@ class SignupViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let screen = 1
+        let screen = 0
         let destinationVC = segue.destination as? ProfileViewController
         destinationVC?.screen = screen
      
@@ -49,7 +49,8 @@ class SignupViewController: UIViewController {
     
     @IBAction func btnEnter(_ sender: Any) {
         let userN = ModelManager.instance.countUsers() + 1
-        let isInserted = ModelManager.instance.addUser(userNum: userN, username: tfUsername.text!, userImage: image, userMini: mini, scoreR: 0, scoreF: 0, scoreC: 0, current: 1)
+        let isInserted = ModelManager.instance.addUser(userNum: userN, username: tfUsername.text!, userImage: image, userMini: mini, scoreR: 0, scoreF: 0, scoreC: 0, current: 0)
+        ModelManager.instance.setCurrentUSer(userNum: userN)
         if isInserted {
         }
         else{

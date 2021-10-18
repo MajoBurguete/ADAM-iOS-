@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */; };
 		3BDAE9EB271BAD9400CBD3B4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDAE9EA271BAD7100CBD3B4 /* libsqlite3.tbd */; };
 		3BDAE9F8271BAEE100CBD3B4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9ED271BAEE100CBD3B4 /* FMDatabaseQueue.m */; };
 		3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9EE271BAEE100CBD3B4 /* FMDatabase.m */; };
 		3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F0271BAEE100CBD3B4 /* FMDatabasePool.m */; };
 		3BDAE9FB271BAEE100CBD3B4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F4271BAEE100CBD3B4 /* FMResultSet.m */; };
 		3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9F6271BAEE100CBD3B4 /* FMDatabaseAdditions.m */; };
-		3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FD271BAF5C00CBD3B4 /* User.swift */; };
 		3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */; };
-		3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */; };
-		4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */; };
 		4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */; };
 		4D32E675271C202A004ABC67 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E674271C202A004ABC67 /* UserProfileViewController.swift */; };
 		4D32E677271C23DF004ABC67 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32E676271C23DF004ABC67 /* SettingsViewController.swift */; };
+		4DFDACCE271D0F9300E6C182 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCB271D0F9300E6C182 /* ModelManager.swift */; };
+		4DFDACCF271D0F9300E6C182 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCC271D0F9300E6C182 /* User.swift */; };
+		4DFDACD0271D0F9300E6C182 /* RainbowModelNVL1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */; };
 		640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D026DB45B100B8BEC6 /* AppDelegate.swift */; };
 		640016D326DB45B100B8BEC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D226DB45B100B8BEC6 /* SceneDelegate.swift */; };
 		640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640016D426DB45B100B8BEC6 /* MainViewController.swift */; };
@@ -49,7 +48,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainbowModelNVL2.swift; sourceTree = "<group>"; };
 		3BDAE9EA271BAD7100CBD3B4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3BDAE9EC271BAEE000CBD3B4 /* ADAM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADAM-Bridging-Header.h"; sourceTree = "<group>"; };
 		3BDAE9ED271BAEE100CBD3B4 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
@@ -63,13 +61,13 @@
 		3BDAE9F5271BAEE100CBD3B4 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
 		3BDAE9F6271BAEE100CBD3B4 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		3BDAE9F7271BAEE100CBD3B4 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		3BDAE9FD271BAF5C00CBD3B4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3BDAE9FF271BB18000CBD3B4 /* ConnectionFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionFile.m; sourceTree = "<group>"; };
-		3BDAEA01271BB1B500CBD3B4 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
-		4D32E66E271AAEEA004ABC67 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainbowModelNVL2.swift; sourceTree = "<group>"; };
 		4D32E674271C202A004ABC67 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		4D32E676271C23DF004ABC67 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4DFDACCB271D0F9300E6C182 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelManager.swift; path = ../../../ModelManager.swift; sourceTree = "<group>"; };
+		4DFDACCC271D0F9300E6C182 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../User.swift; sourceTree = "<group>"; };
+		4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RainbowModelNVL1.swift; path = ../../../RainbowModelNVL1.swift; sourceTree = "<group>"; };
 		640016CD26DB45B100B8BEC6 /* ADAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		640016D026DB45B100B8BEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		640016D226DB45B100B8BEC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,12 +130,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4DFDACC8271D0DF700E6C182 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		640016C426DB45B100B8BEC6 = {
 			isa = PBXGroup;
 			children = (
 				640016CF26DB45B100B8BEC6 /* ADAM */,
 				640016CE26DB45B100B8BEC6 /* Products */,
 				3BDAE9E9271BAD7100CBD3B4 /* Frameworks */,
+				4DFDACC8271D0DF700E6C182 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,6 +208,9 @@
 			isa = PBXGroup;
 			children = (
 				64AA94A3271AAEC700A19510 /* StoryModelNVL1.swift */,
+				4DFDACCB271D0F9300E6C182 /* ModelManager.swift */,
+				4DFDACCD271D0F9300E6C182 /* RainbowModelNVL1.swift */,
+				4DFDACCC271D0F9300E6C182 /* User.swift */,
 				647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */,
 				4D32E672271BB1E5004ABC67 /* rainbowModelNVL2.swift */,
 			);
@@ -312,16 +321,17 @@
 				64AA9499271A938500A19510 /* RainbowNVL1ViewController.swift in Sources */,
 				3BDAE9FA271BAEE100CBD3B4 /* FMDatabasePool.m in Sources */,
 				64AA9497271A915400A19510 /* RainbowNVL2ViewController.swift in Sources */,
+				4DFDACCE271D0F9300E6C182 /* ModelManager.swift in Sources */,
 				3BDAE9F9271BAEE100CBD3B4 /* FMDatabase.m in Sources */,
 				3BDAE9FC271BAEE100CBD3B4 /* FMDatabaseAdditions.m in Sources */,
+				4DFDACCF271D0F9300E6C182 /* User.swift in Sources */,
 				3BDAEA00271BB18000CBD3B4 /* ConnectionFile.m in Sources */,
-				4D32E66F271AAEEA004ABC67 /* RainbowModelNVL1.swift in Sources */,
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
+				4DFDACD0271D0F9300E6C182 /* RainbowModelNVL1.swift in Sources */,
 				64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */,
-				3BDAE9FE271BAF5C00CBD3B4 /* User.swift in Sources */,
 				64AA948F271A895200A19510 /* ShapesNVL2ViewController.swift in Sources */,
 				640016D126DB45B100B8BEC6 /* AppDelegate.swift in Sources */,
 				64AA94A4271AAEC700A19510 /* StoryModelNVL1.swift in Sources */,
@@ -330,7 +340,6 @@
 				64AA9493271A8D0B00A19510 /* StoryViewController.swift in Sources */,
 				64FB72C4270D5F8900875BB1 /* HomePagesController.swift in Sources */,
 				64FC976F270CFAAB009ED40A /* DifficultyViewController.swift in Sources */,
-				3BDAEA02271BB1B500CBD3B4 /* ModelManager.swift in Sources */,
 				3BDAE9FB271BAEE100CBD3B4 /* FMResultSet.m in Sources */,
 				64AA949B271A93E700A19510 /* GameOverViewController.swift in Sources */,
 				4D32E677271C23DF004ABC67 /* SettingsViewController.swift in Sources */,

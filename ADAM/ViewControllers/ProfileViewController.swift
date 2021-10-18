@@ -13,7 +13,6 @@ class ProfileViewController: UIViewController{
     var screen = 0
     
     
-    @IBOutlet weak var profileImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

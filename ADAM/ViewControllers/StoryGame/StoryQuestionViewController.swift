@@ -293,7 +293,7 @@ class StoryQuestionViewController: UIViewController {
                 btnFirstOption.isEnabled = true
                 btnSecondOption.isEnabled = true
                 btnThirdOption.isEnabled = true
-                btnFirstOption.backgroundColor = UIColor.verdeP
+                btnFirstOption.backgroundColor = UIColor.verdePa
                 btnSecondOption.backgroundColor = UIColor.naranja
                 btnThirdOption.backgroundColor = UIColor.azul
 
@@ -318,7 +318,7 @@ class StoryQuestionViewController: UIViewController {
                 btnFirstOption.isEnabled = true
                 btnSecondOption.isEnabled = true
                 btnThirdOption.isEnabled = true
-                btnFirstOption.backgroundColor = UIColor.verdeP
+                btnFirstOption.backgroundColor = UIColor.verdePa
                 btnSecondOption.backgroundColor = UIColor.naranja
                 btnThirdOption.backgroundColor = UIColor.azul
 

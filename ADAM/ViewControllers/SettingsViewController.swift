@@ -49,9 +49,17 @@ class SettingsViewController: UIViewController {
    }
     
     @IBAction func btnSaveS(_ sender: Any) {
-        let changedUser = ModelManager.instance.modifyUser(userNum: user.userNum, username: tfUsernameS.text!, userImage: image, userMini: mini)
-        if !changedUser {
-            tfUsernameS.text = "Error"
+        if image != "" {
+            let changedUser = ModelManager.instance.modifyUser(userNum: user.userNum, username: tfUsernameS.text!, userImage: image, userMini: mini)
+            if !changedUser {
+                tfUsernameS.text = "Error"
+            }
+        }
+        else{
+            let changedUser = ModelManager.instance.modifyUser(userNum: user.userNum, username: tfUsernameS.text!, userImage: user.userImage, userMini: user.userMini)
+            if !changedUser {
+                tfUsernameS.text = "Error"
+            }
         }
         performSegue(withIdentifier: "toHomeFromS", sender: nil)
         

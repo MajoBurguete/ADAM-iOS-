@@ -27,17 +27,17 @@
             <objects>
                 <viewController title="Main View" id="BYZ-38-t0r" customClass="MainViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agrega otro           perfil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNL-Pr-QUi">
-                                <rect key="frame" x="128.5" y="505.5" width="157" height="44"/>
+                                <rect key="frame" x="128.5" y="593.5" width="157" height="44"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="18"/>
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1rV-LE-eex">
-                                <rect key="frame" x="56" y="157.5" width="302" height="135"/>
+                                <rect key="frame" x="56" y="245.5" width="302" height="135"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xpe-vw-4PH">
                                         <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
@@ -58,7 +58,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-nk-QJz">
-                                <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
+                                <rect key="frame" x="139.5" y="450.5" width="135" height="135"/>
                                 <color key="tintColor" red="0.97844213250000001" green="0.80727559329999998" blue="0.54858672620000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="23"/>
                                 <connections>
@@ -66,31 +66,31 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elige tu perfil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="G4s-Ar-bTb">
-                                <rect key="frame" x="76.5" y="50" width="261" height="47.5"/>
+                                <rect key="frame" x="76.5" y="138" width="261" height="47.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="39"/>
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-9x-ybn">
-                                <rect key="frame" x="223" y="299.5" width="135" height="18.5"/>
+                                <rect key="frame" x="223" y="387.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPb-vT-FS6">
-                                <rect key="frame" x="139.5" y="504.5" width="135" height="18.5"/>
+                                <rect key="frame" x="139.5" y="592.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb4-80-CYR">
-                                <rect key="frame" x="56" y="299.5" width="135" height="18.5"/>
+                                <rect key="frame" x="56" y="387.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoJ-qX-iBo">
-                                <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
+                                <rect key="frame" x="139.5" y="450.5" width="135" height="135"/>
                                 <state key="normal" backgroundImage="PP (3)"/>
                                 <connections>
                                     <action selector="toHome3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFB-7d-f72"/>
@@ -611,7 +611,7 @@
                                 <rect key="frame" x="97" y="42" width="220" height="220"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="eIx-lD-mrh">
-                                <rect key="frame" x="131" y="142" width="152" height="108"/>
+                                <rect key="frame" x="131" y="98" width="152" height="108"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntaje" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="dPh-jr-Ew9">
                                         <rect key="frame" x="0.0" y="0.0" width="152" height="48.5"/>
@@ -697,8 +697,8 @@
                     <navigationItem key="navigationItem" id="tsN-Xj-On6"/>
                     <connections>
                         <outlet property="lblNewHighArcoiris" destination="YfL-sW-dxF" id="lVh-Ts-Csf"/>
-                        <outlet property="tvScoreArcoiris" destination="fo0-fR-tKJ" id="3jk-d9-SNN"/>
                         <outlet property="lblScoreGOR" destination="fo0-fR-tKJ" id="zn4-ol-paM"/>
+                        <outlet property="tvScoreArcoiris" destination="fo0-fR-tKJ" id="3jk-d9-SNN"/>
                         <segue destination="lKb-Uu-Kqy" kind="show" identifier="playArcoirisGO" id="A3P-No-o0e"/>
                         <segue destination="Zfj-nu-LqE" kind="show" identifier="backArcoirisGO" id="SME-Js-tur"/>
                     </connections>
@@ -742,7 +742,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="hqs-bq-L8b">
-                                <rect key="frame" x="83" y="277" width="248" height="178.5"/>
+                                <rect key="frame" x="83" y="277" width="248" height="141"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGM-08-ye9">
                                         <rect key="frame" x="0.0" y="0.0" width="248" height="50"/>
@@ -784,7 +784,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuento (200 x 200 px)" translatesAutoresizingMaskIntoConstraints="NO" id="Ioh-To-IV3">
-                                <rect key="frame" x="107" y="659" width="200" height="149"/>
+                                <rect key="frame" x="107" y="693" width="200" height="149"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GF6-uZ-0Oc"/>
@@ -852,12 +852,13 @@
                                     <color key="baseBackgroundColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                             </button>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J2S-Uo-9Ui">
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J2S-Uo-9Ui">
                                 <rect key="frame" x="14" y="746.5" width="273.5" height="45.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="btnNextQ:" destination="vwz-CN-K8I" eventType="touchUpInside" id="Vwn-qm-bt3"/>
                                 </connections>
-                            </button>
+                            </containerView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTb-HX-4ly">
                                 <rect key="frame" x="43.5" y="96.5" width="327" height="64"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -882,10 +883,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="oka-ns-LOQ">
-                                <rect key="frame" x="173" y="211" width="197.5" height="194"/>
+                                <rect key="frame" x="173" y="211" width="197.5" height="192.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1P-VH-4AV">
-                                        <rect key="frame" x="0.0" y="0.0" width="197.5" height="42"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="197.5" height="41.5"/>
                                         <color key="backgroundColor" name="verde_palido"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Verde">
@@ -895,7 +896,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="confundidos">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -907,7 +908,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cPi-LG-hhx">
-                                        <rect key="frame" x="0.0" y="76" width="197.5" height="42"/>
+                                        <rect key="frame" x="0.0" y="75.5" width="197.5" height="41.5"/>
                                         <color key="backgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Naranja">
@@ -917,7 +918,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Miau">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -929,7 +930,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afp-KY-Tid">
-                                        <rect key="frame" x="0.0" y="152" width="197.5" height="42"/>
+                                        <rect key="frame" x="0.0" y="151" width="197.5" height="41.5"/>
                                         <color key="backgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
                                         <state key="normal" title="Azul">
@@ -939,7 +940,7 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="uwu">
                                                     <attributes>
-                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <font key="NSFont" metaFont="system" size="23"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -1791,7 +1792,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HES-fz-55n">
-                                <rect key="frame" x="365" y="399" width="44" height="44"/>
+                                <rect key="frame" x="365" y="382" width="44" height="44"/>
                                 <state key="normal" image="forward">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
@@ -2780,138 +2781,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GJR-a5-qFg"/>
         <segue reference="xPN-M1-0Uf"/>
-        <segue reference="dw5-f5-uZE"/>
+        <segue reference="z6P-6m-vES"/>
         <segue reference="laN-GN-n29"/>
         <segue reference="PMX-Zm-EZc"/>
+        <segue reference="Fxx-0f-KKS"/>
         <segue reference="A3P-No-o0e"/>
-        <segue reference="HNK-UO-QTk"/>
+        <segue reference="8m2-Se-lVA"/>
         <segue reference="Xc2-w5-VXw"/>
         <segue reference="xwd-ks-vSB"/>
-        <!--View Controller-->
-        <scene sceneID="geb-6N-7bZ">
-            <objects>
-                <viewController id="yOY-Yo-LTe" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fkb-eB-SBe">
-                        <rect key="frame" x="0.0" y="0.0" width="206" height="312"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="9p0-g3-EtD">
-                                <rect key="frame" x="0.0" y="31" width="206" height="168.5"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0E-nz-hlN">
-                                        <rect key="frame" x="29" y="0.0" width="148" height="41.5"/>
-                                        <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
-                                        <state key="normal" title="Verde">
-                                            <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="confundidos">
-                                                    <attributes>
-                                                        <font key="NSFont" metaFont="system" size="23"/>
-                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                            <color key="baseForegroundColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="baseBackgroundColor" red="0.059456847610000002" green="0.57344657180000003" blue="0.34529364109999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AbH-Fe-2Qh">
-                                        <rect key="frame" x="29" y="63.5" width="148" height="41.5"/>
-                                        <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
-                                        <state key="normal" title="Naranja">
-                                            <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Naranja">
-                                                    <attributes>
-                                                        <font key="NSFont" metaFont="system" size="23"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                            <color key="baseForegroundColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="baseBackgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-GH-uB3">
-                                        <rect key="frame" x="29" y="127" width="148" height="41.5"/>
-                                        <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="27"/>
-                                        <state key="normal" title="Azul">
-                                            <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Azul">
-                                                    <attributes>
-                                                        <font key="NSFont" metaFont="system" size="23"/>
-                                                    </attributes>
-                                                </fragment>
-                                            </attributedString>
-                                            <color key="baseForegroundColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <color key="baseBackgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="MUR-GH-uB3" firstAttribute="width" secondItem="AbH-Fe-2Qh" secondAttribute="width" id="9hq-wq-AWI"/>
-                                    <constraint firstItem="AbH-Fe-2Qh" firstAttribute="width" secondItem="L0E-nz-hlN" secondAttribute="width" id="fbh-zE-VpQ"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Z9F-Cq-tXh"/>
-                        <constraints>
-                            <constraint firstItem="9p0-g3-EtD" firstAttribute="top" secondItem="fkb-eB-SBe" secondAttribute="top" constant="31" id="CGj-Yd-oo5"/>
-                            <constraint firstItem="9p0-g3-EtD" firstAttribute="width" secondItem="fkb-eB-SBe" secondAttribute="width" id="Cdm-xL-QVp"/>
-                            <constraint firstItem="9p0-g3-EtD" firstAttribute="centerX" secondItem="fkb-eB-SBe" secondAttribute="centerX" id="z1S-4n-u02"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OlE-jb-qlj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7709" y="1406"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="0tG-1O-yze">
-            <objects>
-                <viewController id="c4E-79-g76" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="bGV-GP-bXa">
-                        <rect key="frame" x="0.0" y="0.0" width="273.5" height="45.5"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Muy bien!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="ed7-uU-emX">
-                                <rect key="frame" x="48" y="1.5" width="177.5" height="42.5"/>
-                                <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="35"/>
-                                <color key="textColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Jx8-va-iW6"/>
-                        <constraints>
-                            <constraint firstItem="ed7-uU-emX" firstAttribute="centerY" secondItem="bGV-GP-bXa" secondAttribute="centerY" id="6DG-X3-aqs"/>
-                            <constraint firstItem="ed7-uU-emX" firstAttribute="centerX" secondItem="bGV-GP-bXa" secondAttribute="centerX" id="wKH-68-9rh"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bFI-7D-mxN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7684" y="1584"/>
-        </scene>
-    </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="NNT-yT-WQs"/>
-        <segue reference="aRh-As-jdG"/>
-        <segue reference="EKp-D4-NyL"/>
-        <segue reference="e41-gs-isG"/>
-        <segue reference="Fxx-0f-KKS"/>
-        <segue reference="lOH-PC-wy0"/>
-        <segue reference="HNK-UO-QTk"/>
-        <segue reference="Xc2-w5-VXw"/>
-        <segue reference="Bwb-WF-AEA"/>
-        <segue reference="hx2-Oh-52Z"/>
+        <segue reference="IBG-Fn-p0J"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="15" width="153" height="153"/>

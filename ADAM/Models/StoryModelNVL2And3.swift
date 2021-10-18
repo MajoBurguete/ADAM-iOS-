@@ -113,7 +113,7 @@ class StoryModelNVL2And3 {
             //Las tres variantes insertadas se resaltan con colores distintos.
 
             let range1  = (paragraph as NSString).range(of: firstVariant)
-            finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.verdeP, range: range1)
+            finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.verdePa, range: range1)
             
             let finalParNSS = finalParagraph.string as NSString;
             
