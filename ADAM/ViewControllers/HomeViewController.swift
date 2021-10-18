@@ -11,6 +11,9 @@ let sharedInstanceH = HomeViewController()
 
 class HomeViewController: UIViewController {
     
+    @IBOutlet weak var lblUser: UILabel!
+    @IBOutlet weak var btnUserImage: UIButton!
+    
     let viewController = HomePagesController.instance
     var currentPage: Int!
     
@@ -28,6 +31,12 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         sharedInstanceH.currentPage = 0
+        let user = ModelManager.instance.findCurrentUSer()
+        print("user number test")
+        print(user.userNum)
+        print(user.username)
+        lblUser.text = user.username
+        btnUserImage.setBackgroundImage(UIImage(named: user.userMini), for: .normal)
         
     }
     

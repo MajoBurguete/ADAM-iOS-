@@ -29,8 +29,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Agrega otro           perfil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNL-Pr-QUi">
-                                <rect key="frame" x="129" y="674" width="157" height="58"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agrega otro           perfil" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNL-Pr-QUi">
+                                <rect key="frame" x="128.5" y="505.5" width="157" height="44"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="18"/>
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -42,6 +42,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
                                         <state key="normal" backgroundImage="PP (1)"/>
                                         <connections>
+                                            <action selector="toHome1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qGj-SS-k6V"/>
                                             <segue destination="Zfj-nu-LqE" kind="show" id="aRh-As-jdG"/>
                                         </connections>
                                     </button>
@@ -49,17 +50,18 @@
                                         <rect key="frame" x="167" y="0.0" width="135" height="135"/>
                                         <state key="normal" backgroundImage="PP (2)"/>
                                         <connections>
+                                            <action selector="toHome2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qzQ-Bi-uc9"/>
                                             <segue destination="Zfj-nu-LqE" kind="show" identifier="" id="esX-bj-8Ny"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-nk-QJz">
-                                <rect key="frame" x="140" y="393" width="135" height="135"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="18b-nk-QJz">
+                                <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
                                 <color key="tintColor" red="0.97844213250000001" green="0.80727559329999998" blue="0.54858672620000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="23"/>
                                 <connections>
-                                    <segue destination="Zfj-nu-LqE" kind="show" id="Iog-iq-RKp"/>
+                                    <action selector="toSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2oH-8J-02V"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elige tu perfil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="G4s-Ar-bTb">
@@ -68,27 +70,30 @@
                                 <color key="textColor" red="0.2144168317" green="0.61655300859999995" blue="0.40981245039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flamencooo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-9x-ybn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVz-9x-ybn">
                                 <rect key="frame" x="223" y="299.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flamencooo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPb-vT-FS6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HPb-vT-FS6">
                                 <rect key="frame" x="139.5" y="504.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Flamencooo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb4-80-CYR">
-                                <rect key="frame" x="76" y="362" width="93" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb4-80-CYR">
+                                <rect key="frame" x="56" y="299.5" width="135" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoJ-qX-iBo">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VoJ-qX-iBo">
                                 <rect key="frame" x="139.5" y="362.5" width="135" height="135"/>
                                 <state key="normal" backgroundImage="PP (3)"/>
+                                <connections>
+                                    <action selector="toHome3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GFB-7d-f72"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -120,10 +125,21 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oy5-cz-fJP"/>
+                    <connections>
+                        <outlet property="btnAddProfile" destination="18b-nk-QJz" id="cHN-n1-2yB"/>
+                        <outlet property="btnProfile1" destination="Xpe-vw-4PH" id="d4h-u1-8eJ"/>
+                        <outlet property="btnProfile2" destination="Q6C-cD-0wg" id="Byt-yG-qWa"/>
+                        <outlet property="btnProfile3" destination="VoJ-qX-iBo" id="FhH-Fr-dWD"/>
+                        <outlet property="lblAddProfile" destination="iNL-Pr-QUi" id="BpU-4Q-agt"/>
+                        <outlet property="lblProfile1" destination="Hb4-80-CYR" id="mfn-vg-sc7"/>
+                        <outlet property="lblProfile2" destination="eVz-9x-ybn" id="9nS-9L-HxM"/>
+                        <outlet property="lblProfile3" destination="HPb-vT-FS6" id="C3F-0u-eok"/>
+                        <segue destination="prH-TO-tcu" kind="show" identifier="toSignUp" id="Bwb-WF-AEA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2714" y="78"/>
+            <point key="canvasLocation" x="2713.04347826087" y="77.678571428571431"/>
         </scene>
         <!--Signup View-->
         <scene sceneID="RiU-zF-diU">
@@ -172,6 +188,7 @@
                                     <color key="baseBackgroundColor" red="0.99314910170000004" green="0.66568940880000005" blue="0.66057193280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="btnEnter:" destination="prH-TO-tcu" eventType="touchUpInside" id="v5I-Qd-EaX"/>
                                     <segue destination="Zfj-nu-LqE" kind="show" id="z6P-6m-vES"/>
                                 </connections>
                             </button>
@@ -198,6 +215,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ULE-1S-r5Q"/>
+                    <connections>
+                        <outlet property="btnEditL" destination="kwL-Bc-9ye" id="Qlr-X8-zFm"/>
+                        <outlet property="btnEnter" destination="37C-rb-UDd" id="E4F-AJ-uJb"/>
+                        <outlet property="ivProfilePic" destination="Dlc-aZ-gYB" id="QoN-v5-viB"/>
+                        <outlet property="lblValidate" destination="CHa-Fk-UEU" id="Adg-Na-uDU"/>
+                        <outlet property="tfUsername" destination="mcc-Im-mb4" id="4AS-GS-VvV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhp-wA-8r6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -206,7 +230,7 @@
         <!--Profile Picture View-->
         <scene sceneID="0P1-4s-Vdm">
             <objects>
-                <viewController title="Profile Picture View" id="bIq-fw-Ar1" sceneMemberID="viewController">
+                <viewController title="Profile Picture View" id="bIq-fw-Ar1" customClass="ProfileViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aqI-IS-YaF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -227,12 +251,17 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="PP (4)"/>
                                                 <connections>
-                                                    <segue destination="prH-TO-tcu" kind="show" id="sUS-w4-Jrq"/>
+                                                    <action selector="PP1:" destination="2SR-p7-5HL" eventType="touchUpInside" id="d9q-er-xE9"/>
+                                                    <action selector="setPP1:" destination="2SR-p7-5HL" eventType="touchUpInside" id="8KE-5t-276"/>
+                                                    <action selector="setPP1:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="PtW-zh-nRF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKc-fT-B1y">
                                                 <rect key="frame" x="171" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="PP (3)"/>
+                                                <connections>
+                                                    <action selector="setPP2:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="PDQ-og-WFx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -242,10 +271,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJl-pM-ciB">
                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="PP (5)"/>
+                                                <connections>
+                                                    <action selector="setPP3:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="c6y-ac-xry"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NiS-Ia-sE3">
                                                 <rect key="frame" x="171" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="lock_rosa"/>
+                                                <connections>
+                                                    <action selector="setPP4:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="tWj-SH-ZPu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -255,10 +290,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjD-mG-Owj">
                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="lock_verde"/>
+                                                <connections>
+                                                    <action selector="setPP5:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="knD-fW-L0b"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEN-5s-dKK">
                                                 <rect key="frame" x="171" y="0.0" width="135" height="135"/>
                                                 <state key="normal" backgroundImage="lock_azul"/>
+                                                <connections>
+                                                    <action selector="setPP6:" destination="bIq-fw-Ar1" eventType="touchUpInside" id="v0F-eZ-1w8"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -279,16 +320,18 @@
                     <navigationItem key="navigationItem" id="iIu-aI-Vfv"/>
                     <connections>
                         <segue destination="prH-TO-tcu" kind="show" identifier="returnPP" id="xwd-ks-vSB"/>
+                        <segue destination="DYd-50-36Y" kind="show" identifier="returnS" id="8m2-Se-lVA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3f-RV-4w3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="2SR-p7-5HL" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4294.202898550725" y="77.678571428571431"/>
         </scene>
         <!--Settings View-->
         <scene sceneID="VRw-Fy-aed">
             <objects>
-                <viewController title="Settings View" id="DYd-50-36Y" sceneMemberID="viewController">
+                <viewController title="Settings View" id="DYd-50-36Y" customClass="SettingsViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DOD-hU-NrK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -299,17 +342,17 @@
                                 <color key="textColor" red="0.99055475000000004" green="0.42795920370000001" blue="0.040463827549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="PP (4)" translatesAutoresizingMaskIntoConstraints="NO" id="hLv-gj-cbk">
-                                <rect key="frame" x="127" y="220" width="150" height="150"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PP (4)" translatesAutoresizingMaskIntoConstraints="NO" id="hLv-gj-cbk">
+                                <rect key="frame" x="139.5" y="137" width="135" height="135"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Flamenco" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x43-NA-2K8">
-                                <rect key="frame" x="84" y="421" width="193" height="40"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x43-NA-2K8">
+                                <rect key="frame" x="110.5" y="312" width="193" height="40"/>
                                 <color key="textColor" red="0.32552492620000001" green="0.71067410710000001" blue="0.54194831850000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleAspectFit" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MG-WK-ejh">
-                                <rect key="frame" x="239" y="317" width="43" height="43"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MG-WK-ejh">
+                                <rect key="frame" x="236.5" y="229" width="43" height="43"/>
                                 <color key="tintColor" red="0.99055475000000004" green="0.42795920370000001" blue="0.040463827549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
                                     <color key="titleColor" red="0.99055475000000004" green="0.42795920370000001" blue="0.040463827549999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -320,7 +363,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48B-KA-nI6">
-                                <rect key="frame" x="136" y="494" width="142.5" height="38"/>
+                                <rect key="frame" x="136" y="493.5" width="142.5" height="38"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="20"/>
                                 <state key="normal" title="Eliminar perfil">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -337,11 +380,12 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="btnDeleteUSer:" destination="DYd-50-36Y" eventType="touchUpInside" id="GNC-fi-WRa"/>
                                     <segue destination="BYZ-38-t0r" kind="show" id="hx2-Oh-52Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-LD-iKY">
-                                <rect key="frame" x="153.5" y="421" width="107.5" height="43"/>
+                                <rect key="frame" x="153.5" y="420.5" width="107.5" height="43"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="24"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.98898416759999996" green="0.70386260749999996" blue="0.69559663530000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -357,9 +401,12 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnSaveS:" destination="DYd-50-36Y" eventType="touchUpInside" id="7In-Op-aVA"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Entre 1 y 10 caracteres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxU-Jk-bZu">
-                                <rect key="frame" x="127" y="465" width="171" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Entre 1 y 10 caracteres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxU-Jk-bZu">
+                                <rect key="frame" x="112.5" y="362" width="170" height="18.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Light" family="Silka" pointSize="15"/>
                                 <color key="textColor" red="0.51538997890000005" green="0.7929265499" blue="0.63246870040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -386,6 +433,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2hF-UL-XVs"/>
+                    <connections>
+                        <outlet property="btnSaveS" destination="c7S-LD-iKY" id="wyN-7Y-cPZ"/>
+                        <outlet property="ivProfilePicS" destination="hLv-gj-cbk" id="0Pp-2X-FhV"/>
+                        <outlet property="lblValidation" destination="HxU-Jk-bZu" id="ZOH-tl-jKg"/>
+                        <outlet property="tfUsernameS" destination="x43-NA-2K8" id="1kb-Of-ZQX"/>
+                        <segue destination="Zfj-nu-LqE" kind="show" identifier="toHomeFromS" id="nRt-5z-yG5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqq-SF-ka3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1641,7 +1695,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HES-fz-55n">
-                                <rect key="frame" x="365" y="399" width="44" height="44"/>
+                                <rect key="frame" x="365" y="382" width="44" height="44"/>
                                 <state key="normal" image="forward">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
@@ -1710,6 +1764,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="btnUserImage" destination="haZ-KW-NAw" id="9vF-hv-KUk"/>
+                        <outlet property="lblUser" destination="QU2-1H-hbm" id="o7b-Ed-3oN"/>
                         <segue destination="lKb-Uu-Kqy" kind="show" identifier="showArcoiris" id="lOH-PC-wy0"/>
                         <segue destination="ge0-Ht-77S" kind="show" identifier="showCuento" id="EKp-D4-NyL"/>
                         <segue destination="W9p-uT-54n" kind="show" identifier="showFormitas" id="NNT-yT-WQs"/>
@@ -1723,7 +1779,7 @@
         <!--User Profile View-->
         <scene sceneID="tH5-nv-b8x">
             <objects>
-                <viewController title="User Profile View" id="oV5-x7-p2R" customClass="ProfileViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="User Profile View" id="oV5-x7-p2R" customClass="UserProfileViewController" customModule="ADAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Um4-oV-9pD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1776,8 +1832,8 @@
                                     <constraint firstAttribute="height" constant="230" id="xmK-iI-w60"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbG-p3-vgO">
-                                <rect key="frame" x="99" y="224" width="35.5" height="24.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbG-p3-vgO">
+                                <rect key="frame" x="87.5" y="159.5" width="47" height="30.5"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1843,6 +1899,13 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="ivProfilePic" destination="VzT-jM-7Tg" id="bhM-Cf-puw"/>
+                        <outlet property="lblScoreC" destination="gtX-qg-3l0" id="owO-cn-b1v"/>
+                        <outlet property="lblScoreF" destination="r2K-oh-4di" id="EDD-FZ-TdV"/>
+                        <outlet property="lblScoreR" destination="HbG-p3-vgO" id="1d4-cx-1cz"/>
+                        <outlet property="lblUserP" destination="RGo-Xj-qUP" id="ZL6-83-J3Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zkw-RG-LGA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2732,15 +2795,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Fxx-0f-KKS"/>
-        <segue reference="xPN-M1-0Uf"/>
-        <segue reference="SME-Js-tur"/>
-        <segue reference="laN-GN-n29"/>
+        <segue reference="NNT-yT-WQs"/>
+        <segue reference="aRh-As-jdG"/>
+        <segue reference="EKp-D4-NyL"/>
         <segue reference="e41-gs-isG"/>
-        <segue reference="A3P-No-o0e"/>
+        <segue reference="Fxx-0f-KKS"/>
+        <segue reference="lOH-PC-wy0"/>
         <segue reference="HNK-UO-QTk"/>
-        <segue reference="PZ3-Uy-qg1"/>
-        <segue reference="xwd-ks-vSB"/>
+        <segue reference="Xc2-w5-VXw"/>
+        <segue reference="Bwb-WF-AEA"/>
         <segue reference="hx2-Oh-52Z"/>
     </inferredMetricsTieBreakers>
     <resources>
