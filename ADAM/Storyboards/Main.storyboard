@@ -185,8 +185,14 @@
                                 <rect key="frame" x="139" y="661" width="135" height="44"/>
                                 <color key="tintColor" red="0.99314910170000004" green="0.66568940880000005" blue="0.66057193280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="¡Entrar!" cornerStyle="medium" titleAlignment="center">
-                                    <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="25"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="medium" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="¡Entrar!">
+                                            <attributes>
+                                                <font key="NSFont" size="25" name="Silka-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseBackgroundColor" red="0.99314910170000004" green="0.66568940880000005" blue="0.66057193280000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -368,13 +374,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48B-KA-nI6">
-                                <rect key="frame" x="125" y="493.5" width="164" height="38"/>
+                                <rect key="frame" x="125" y="494" width="164" height="38"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="20"/>
                                 <state key="normal" title="Eliminar perfil">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Eliminar perfil" cornerStyle="medium">
-                                    <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="20"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Eliminar perfil">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Silka-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
@@ -383,12 +395,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7S-LD-iKY">
-                                <rect key="frame" x="144.5" y="420.5" width="125" height="43"/>
+                                <rect key="frame" x="144.5" y="420.5" width="125" height="43.5"/>
                                 <state key="normal" title="Guardar">
                                     <color key="titleColor" red="0.98898416759999996" green="0.70386260749999996" blue="0.69559663530000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <buttonConfiguration key="configuration" style="filled" title="Guardar" cornerStyle="medium">
-                                    <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="24"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="medium">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Guardar">
+                                            <attributes>
+                                                <font key="NSFont" size="24" name="Silka-Bold"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -524,13 +542,20 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="hXb-wz-hEK">
-                                <rect key="frame" x="83" y="277" width="248" height="141"/>
+                                <rect key="frame" x="83" y="277" width="248" height="178.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udn-Ud-Wlp">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="49.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Jugar de nuevo" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="29"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Jugar de nuevo">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -538,10 +563,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCB-zl-Y1P">
-                                        <rect key="frame" x="0.0" y="90.5" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Salir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="30"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Salir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -614,13 +646,20 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="OVr-Qh-bcQ">
-                                <rect key="frame" x="83" y="277" width="248" height="141"/>
+                                <rect key="frame" x="83" y="277" width="248" height="178.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MeV-ef-7Bx">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="49.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Jugar de nuevo" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="29"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Jugar de nuevo">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.99623399970000004" green="0.77635568379999997" blue="0.23364493250000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -628,10 +667,17 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it1-gM-PVz">
-                                        <rect key="frame" x="0.0" y="90.5" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Salir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="30"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Salir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -708,13 +754,20 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="hqs-bq-L8b">
-                                <rect key="frame" x="83" y="277" width="248" height="141"/>
+                                <rect key="frame" x="83" y="277" width="248" height="178.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGM-08-ye9">
-                                        <rect key="frame" x="0.0" y="0.0" width="248" height="49.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="87"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Jugar de nuevo" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="29"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Jugar de nuevo">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -723,10 +776,16 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ed-bA-sMh">
-                                        <rect key="frame" x="0.0" y="90.5" width="248" height="50.5"/>
+                                        <rect key="frame" x="0.0" y="128" width="248" height="50.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Salir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Bold" family="Silka" pointSize="30"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Salir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="30" name="Silka-Bold"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.39402422310000002" green="0.60463517899999997" blue="0.33759653569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -1510,7 +1569,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ahora contesta la pregunta:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="UbI-ww-T79">
-                                <rect key="frame" x="32" y="30" width="350" height="77.5"/>
+                                <rect key="frame" x="32" y="30" width="350" height="75"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1566,13 +1625,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Te contaré un cuento:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="PiS-OG-L8f">
-                                <rect key="frame" x="33" y="82" width="275" height="77.5"/>
+                                <rect key="frame" x="33" y="82" width="275" height="75"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PiD-uB-pDF">
-                                <rect key="frame" x="255" y="510.5" width="139" height="75"/>
+                                <rect key="frame" x="255" y="508" width="139" height="75"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="29"/>
                                 <state key="normal" title="Seguir" backgroundImage="boton (139 x 75 px)">
                                     <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1582,10 +1641,10 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cuento_card (414 x 295)" translatesAutoresizingMaskIntoConstraints="NO" id="KEV-ni-1PG">
-                                <rect key="frame" x="0.0" y="169.5" width="414" height="296"/>
+                                <rect key="frame" x="0.0" y="167" width="414" height="296"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Había una vez un príncipe que amaba su jardín, tenia muchas rosas azules y algunos tulipanes naranjas" textAlignment="right" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qad-BL-h2f">
-                                <rect key="frame" x="165" y="208.5" width="209" height="218"/>
+                                <rect key="frame" x="165" y="206" width="209" height="218"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1896,19 +1955,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Observa en qué lugar se pone cada formita" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="g1E-Zg-ype">
-                                <rect key="frame" x="49.5" y="37" width="315" height="123.5"/>
+                                <rect key="frame" x="49.5" y="37" width="315" height="119"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Y regrésalas a su lugar." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="LUm-t8-fri">
-                                <rect key="frame" x="55" y="553.5" width="304" height="82.5"/>
+                                <rect key="frame" x="55" y="556.5" width="304" height="79.5"/>
                                 <fontDescription key="fontDescription" name="Silka-Bold" family="Silka" pointSize="34"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="18" translatesAutoresizingMaskIntoConstraints="NO" id="CvY-8P-9LM">
-                                <rect key="frame" x="0.0" y="160.5" width="414" height="393"/>
+                                <rect key="frame" x="0.0" y="156" width="414" height="400.5"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mDW-t0-DQ7">
                                 <rect key="frame" x="196" y="712" width="139" height="75"/>
@@ -2001,8 +2060,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ejd-ZK-V96">
                                         <rect key="frame" x="0.0" y="105" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Checar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Checar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2012,8 +2077,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn0-Hb-ixF">
                                         <rect key="frame" x="120.5" y="105" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Seguir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Seguir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2023,8 +2094,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhB-Fs-ikW">
                                         <rect key="frame" x="241" y="105" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Limpiar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Limpiar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2195,8 +2272,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSq-pp-Wbd">
                                         <rect key="frame" x="0.0" y="114" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Checar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Checar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2206,8 +2289,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5N-X2-kBc">
                                         <rect key="frame" x="120.5" y="114" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Seguir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Seguir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2217,8 +2306,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m3-IJ-dTQ">
                                         <rect key="frame" x="241" y="114" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Limpiar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Limpiar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2558,8 +2653,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gB-2X-lUS">
                                         <rect key="frame" x="0.0" y="119" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Checar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Checar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.997510016" green="0.3775001764" blue="0.04748728126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2569,8 +2670,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cc4-eq-XAK">
                                         <rect key="frame" x="120.5" y="119" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Seguir" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Seguir">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.5591257811" blue="0.61528033019999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2580,8 +2687,14 @@
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU7-ao-84C">
                                         <rect key="frame" x="241" y="119" width="107.5" height="39.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title=" Limpiar">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="21"/>
+                                        <buttonConfiguration key="configuration" style="filled">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content=" Limpiar">
+                                                    <attributes>
+                                                        <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" red="0.026596026500000002" green="0.48239076139999998" blue="0.75458639859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -2753,14 +2866,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="NNT-yT-WQs"/>
-        <segue reference="nRt-5z-yG5"/>
-        <segue reference="EKp-D4-NyL"/>
+        <segue reference="xPN-M1-0Uf"/>
+        <segue reference="SvX-QX-MuJ"/>
+        <segue reference="laN-GN-n29"/>
         <segue reference="Pm2-2h-raU"/>
-        <segue reference="1co-br-fgc"/>
-        <segue reference="lOH-PC-wy0"/>
+        <segue reference="fdF-OL-jGq"/>
+        <segue reference="A3P-No-o0e"/>
         <segue reference="8eF-My-BDU"/>
-        <segue reference="PZ3-Uy-qg1"/>
+        <segue reference="Xc2-w5-VXw"/>
         <segue reference="O4E-Zn-nry"/>
         <segue reference="wxR-Xg-HnK"/>
     </inferredMetricsTieBreakers>
