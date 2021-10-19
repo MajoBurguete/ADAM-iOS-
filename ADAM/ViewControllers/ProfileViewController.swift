@@ -38,7 +38,7 @@ class ProfileViewController: UIViewController{
         }
         if user.scoreR >= 2500 && user.scoreC >= 2500 && user.scoreF >= 2500 {
             achievement3 = true
-            btnUnlock2.setBackgroundImage(UIImage(named: "PP (1).svg"), for: .normal)
+            btnUnlock3.setBackgroundImage(UIImage(named: "PP (1).svg"), for: .normal)
         }
     }
     
