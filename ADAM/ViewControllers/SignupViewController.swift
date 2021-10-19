@@ -14,8 +14,9 @@ import UIKit
 class SignupViewController: UIViewController {
     
     //Declaración y ligado de todos los componentes necesarios para el funcionamiento del clase con su contraparte en el storyboard
-    var image = ""
-    var mini = ""
+    var image = "PP (4).svg"
+    var mini = "PP46.svg"
+    var screen = 0
     @IBOutlet weak var lblValidate: UILabel!
     @IBOutlet weak var btnEnter: UIButton!
     @IBOutlet weak var btnEditL: UIButton!
@@ -25,6 +26,9 @@ class SignupViewController: UIViewController {
     //funcion que realiza acciones al momento de cargar el ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
+        if screen == 1 {
+            self.navigationItem.setHidesBackButton(true, animated: true)
+        }
         // se declara una variable para reconocer si se quiere bajar el teclado
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
         view.addGestureRecognizer(tap)
@@ -49,9 +53,10 @@ class SignupViewController: UIViewController {
     
     // funcion que se utiliza para mandar a la pantalla "profileViewController desde que pantalla viene para que sepa a cual regresar
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let screen = 0
+        let screen1 = 0
         let destinationVC = segue.destination as? ProfileViewController
-        destinationVC?.screen = screen
+        destinationVC?.screen = screen1
+        
    }
     
     //boton de registro y enntrada a la app que guarda los datos del usuario en la base de datos y lo declara como el usuario actual

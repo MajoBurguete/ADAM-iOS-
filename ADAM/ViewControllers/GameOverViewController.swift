@@ -25,7 +25,6 @@ class GameOverViewController: UIViewController {
     //funcion que realiza acciones al momento de cargar el ViewController
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(score)
         //condicionales que checan de que juego proviene el usuario, desplegando el score obtenido y si este es su nuevo record personal
         if game == "cuento" {
             tvScoreCuento.text = String(score)

@@ -841,6 +841,20 @@ class ShapesNVL3ViewController: UIViewController {
         }
     }
     
+    @IBAction func btnPauseF3(_ sender: Any) {
+        let titleFont = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20)]
+        let titleAttrString = NSMutableAttributedString(string: "Pausa", attributes: titleFont)
+        let alert = UIAlertController(title: "Pausa", message: nil, preferredStyle: .actionSheet)
+        alert.setValue(titleAttrString, forKey:"attributedTitle")
+        let returnAction = UIAlertAction(title: "Seguir Jugando", style: .cancel) {
+            (_) in }
+        let exitAction = UIAlertAction(title: "Salir", style: .destructive) {action in
+            self.performSegue(withIdentifier: "toHomeF3", sender: nil)
+        }
+        alert.addAction(returnAction)
+        alert.addAction(exitAction)
+        present(alert, animated: true, completion: nil)
+    }
     
     
     

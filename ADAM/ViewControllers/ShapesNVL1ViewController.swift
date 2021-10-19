@@ -131,7 +131,18 @@ class ShapesNVL1ViewController: UIViewController {
     
     // Se implementa la funcionalidad del botón de pausa
     @IBAction func pauseLevel1(_ sender: Any) {
-        performSegue(withIdentifier: "pauseFormitas1", sender: nil)
+        let titleFont = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20)]
+        let titleAttrString = NSMutableAttributedString(string: "Pausa", attributes: titleFont)
+        let alert = UIAlertController(title: "Pausa", message: nil, preferredStyle: .actionSheet)
+        alert.setValue(titleAttrString, forKey:"attributedTitle")
+        let returnAction = UIAlertAction(title: "Seguir Jugando", style: .cancel) {
+            (_) in }
+        let exitAction = UIAlertAction(title: "Salir", style: .destructive) {action in
+            self.performSegue(withIdentifier: "toHomeF1", sender: nil)
+        }
+        alert.addAction(returnAction)
+        alert.addAction(exitAction)
+        present(alert, animated: true, completion: nil)
     }
     
     // Se implementa la funcionalidad del Pan Gesture Recognizer para identificar el arrastre de las tres figuras existentes.

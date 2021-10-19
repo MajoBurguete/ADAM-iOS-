@@ -42,7 +42,18 @@ class RainbowNVL1ViewController: UIViewController {
     
     //boton de pausa
     @IBAction func pauseArcLevel1(_ sender: Any) {
-        performSegue(withIdentifier: "pauseArcoiris1", sender: nil)
+        let titleFont = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20)]
+        let titleAttrString = NSMutableAttributedString(string: "Pausa", attributes: titleFont)
+        let alert = UIAlertController(title: "Pausa", message: nil, preferredStyle: .actionSheet)
+        alert.setValue(titleAttrString, forKey:"attributedTitle")
+        let returnAction = UIAlertAction(title: "Seguir Jugando", style: .cancel) {
+            (_) in }
+        let exitAction = UIAlertAction(title: "Salir", style: .destructive) {action in
+            self.performSegue(withIdentifier: "toHomeR1", sender: nil)
+        }
+        alert.addAction(returnAction)
+        alert.addAction(exitAction)
+        present(alert, animated: true, completion: nil)
     }
     
     /*Cada boton que representa una opción de respuesta llama a los métodos "checkAnswer", "checkLives" y "setLayoutAtributes" del modelo, pasando como parámetro el entero correspondiente, asi como modificar la etiqueta del puntaje*/

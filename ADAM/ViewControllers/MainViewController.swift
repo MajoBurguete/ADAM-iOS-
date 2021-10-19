@@ -62,7 +62,6 @@ class MainViewController: UIViewController {
         if userNum >= 1 {
             let user1 = ModelManager.instance.findUser(userNum: 1)
             btnProfile1.setBackgroundImage(UIImage(named: user1.userImage), for: .normal)
-            print(user1.userImage)
             lblProfile1.text = user1.username
             btnProfile1.isHidden = false
             lblProfile1.isHidden = false
@@ -98,6 +97,7 @@ class MainViewController: UIViewController {
     //funcion que al presionar el boton lo manda con el usuario elegido, asignandolo como el usuario actual
     @IBAction func toHome3(_ sender: UIButton) {
         ModelManager.instance.setCurrentUSer(userNum: 3)
+
     }
     //funcion que al presionar el boton lo manda a la pantalla de registro para crear un nuevo usuario
     @IBAction func toSignUp(_ sender: Any) {

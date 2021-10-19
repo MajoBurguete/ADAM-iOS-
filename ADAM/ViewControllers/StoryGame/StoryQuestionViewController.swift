@@ -264,7 +264,18 @@ class StoryQuestionViewController: UIViewController {
     
     /*Se crea la funcinalidad del botón de pausa, desplegando un view controller en modalidad Show detail*/
     @IBAction func pauseStoryQ(_ sender: Any) {
-        performSegue(withIdentifier: "pauseCuentoQ", sender: nil)
+        let titleFont = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 20)]
+        let titleAttrString = NSMutableAttributedString(string: "Pausa", attributes: titleFont)
+        let alert = UIAlertController(title: "Pausa", message: nil, preferredStyle: .actionSheet)
+        alert.setValue(titleAttrString, forKey:"attributedTitle")
+        let returnAction = UIAlertAction(title: "Seguir Jugando", style: .cancel) {
+            (_) in }
+        let exitAction = UIAlertAction(title: "Salir", style: .destructive) {action in
+            self.performSegue(withIdentifier: "toHomeC2", sender: nil)
+        }
+        alert.addAction(returnAction)
+        alert.addAction(exitAction)
+        present(alert, animated: true, completion: nil)
     }
     
     //Se crea la funcionalidad del botón "Siguiente pregunta", que cambia dependiendo del nivel de dificultad

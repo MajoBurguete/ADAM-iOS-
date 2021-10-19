@@ -10,6 +10,8 @@ import UIKit
 //Clase creada para la modificacion de los datos del usuario
 class SettingsViewController: UIViewController {
     
+    let modelManagerS = ModelManager()
+    
     //Declaración y ligado de todos los componentes necesarios para el funcionamiento del clase con su contraparte en el storyboard
     var image = ""
     var mini = ""
@@ -53,8 +55,10 @@ class SettingsViewController: UIViewController {
     // funcion que se utiliza para mandar a la pantalla "profileViewController desde que pantalla viene para que sepa a cual regresar
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let screen = 1
-        let destinationVC = segue.destination as? ProfileViewController
-        destinationVC?.screen = screen
+        let destinationVC1 = segue.destination as? ProfileViewController
+        destinationVC1?.screen = screen
+        let destinationVC2 = segue.destination as? SignupViewController
+        destinationVC2?.screen = screen
      
    }
     
@@ -77,7 +81,22 @@ class SettingsViewController: UIViewController {
     }
     //boton para borrar tu usuario, mandando al usuario de regreso a la pantalla Main para que escoga o cree otro usuario
     @IBAction func btnDeleteUSer(_ sender: Any) {
-        ModelManager.instance.deleteUser(userNum: user.userNum)
+        let alert = UIAlertController(title: "¡Cuidado!", message: "¿Seguro que quieres borrar tu perfil?", preferredStyle: .alert)
+        let eraseAction = UIAlertAction(title: "Si", style: .destructive) { [self]
+            action in
+            modelManagerS.deleteUser(userNum: user.userNum)
+            if modelManagerS.countUsers() > 0 {
+                performSegue(withIdentifier: "toHomeFromS", sender: nil)
+            }
+            else {
+                performSegue(withIdentifier: "toSignUpFromS", sender: nil)
+            }
+        }
+        let returnAction = UIAlertAction(title: "No", style: .default) {
+            action in print(action) }
+        alert.addAction(eraseAction)
+        alert.addAction(returnAction)
+        present(alert, animated: true, completion: nil)
     }
 }
 
