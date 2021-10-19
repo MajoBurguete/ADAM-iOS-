@@ -100,15 +100,15 @@ class StoryModelNVL1 {
 
         let range1  = (paragraph as NSString).range(of: firstVariant)
         let finalParagraph = NSMutableAttributedString(string:paragraph)
-        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.verdePa, range: range1)
+        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: ColorsModel.verdePa, range: range1)
         
         let finalParNSS = finalParagraph.string as NSString;
         
         let range2 = (finalParNSS).range(of: secondVariant)
-        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.naranja, range: range2)
+        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: ColorsModel.naranjaP, range: range2)
         
         let range3 = (paragraph as NSString).range(of: thirdVariant)
-        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.azul, range: range3)
+        finalParagraph.addAttribute(NSAttributedString.Key.foregroundColor, value: ColorsModel.azul_st, range: range3)
         
         // Se cambia el formato del parrafo a la font y alineación correcta
         
@@ -163,11 +163,6 @@ class StoryModelNVL1 {
     
     
     
-}
-
-extension UIColor {
-    static let naranjaP: UIColor = UIColor(named: "naranja")!
-    static let verdePa: UIColor = UIColor(named: "verde_palido")!
 }
 
 extension UIFont {

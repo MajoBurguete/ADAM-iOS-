@@ -148,9 +148,9 @@ class StoryQuestionViewController: UIViewController {
             tvScoreS.text = "Puntaje: " + String(score)
             
             /*Los colores de los botones de opciones se modifican, mostrando las incorrectas en rojo y la correcta en verde*/
-            btnOption1?.backgroundColor = UIColor.verde
-            btnOption2?.backgroundColor = UIColor.rojo
-            btnOption3?.backgroundColor = UIColor.rojo
+            btnOption1?.backgroundColor = ColorsModel.verde
+            btnOption2?.backgroundColor = ColorsModel.rojo
+            btnOption3?.backgroundColor = ColorsModel.rojo
             
             //Los 3 botones se desabilitan para solo permitir pasar a la siguiente pregunta
             btnOption1?.isEnabled = false
@@ -181,29 +181,29 @@ class StoryQuestionViewController: UIViewController {
                 btnOption2?.isEnabled = false
                 btnOption3?.isEnabled = false
                 
-                btnOption1?.backgroundColor = UIColor.rojo
+                btnOption1?.backgroundColor = ColorsModel.rojo
                 //Se checa la lógica para cada pregunta y las respuestas correctas existentes en el modelo
                 if (difficulty == 1) {
                     let currentTitleOP2 = btnOption2?.currentAttributedTitle?.string
                     
                     if (model1.actualQuestion == 1) {
                         if (currentTitleOP2 == model1.secondAns.uppercased()) {
-                            btnOption2?.backgroundColor = UIColor.verde
-                            btnOption3?.backgroundColor = UIColor.rojo
+                            btnOption2?.backgroundColor = ColorsModel.verde_st
+                            btnOption3?.backgroundColor = ColorsModel.rojo
                         }
                         else {
-                            btnOption3?.backgroundColor = UIColor.verde
-                            btnOption2?.backgroundColor = UIColor.rojo
+                            btnOption3?.backgroundColor = ColorsModel.verde_st
+                            btnOption2?.backgroundColor = ColorsModel.rojo
                         }
                     }
                     else {
                         if (currentTitleOP2 == model1.thirdAns.uppercased()) {
-                            btnOption2?.backgroundColor = UIColor.verde
-                            btnOption3?.backgroundColor = UIColor.rojo
+                            btnOption2?.backgroundColor = ColorsModel.verde_st
+                            btnOption3?.backgroundColor = ColorsModel.rojo
                         }
                         else {
-                            btnOption3?.backgroundColor = UIColor.verde
-                            btnOption2?.backgroundColor = UIColor.rojo
+                            btnOption3?.backgroundColor = ColorsModel.verde_st
+                            btnOption2?.backgroundColor = ColorsModel.rojo
                         }
                     }
                     
@@ -213,22 +213,22 @@ class StoryQuestionViewController: UIViewController {
                     
                     if model2and3.actualQuestion == 1 {
                         if (currentTitleOP2 == model2and3.secondParagraphAns.uppercased()) {
-                            btnOption2?.backgroundColor = UIColor.verde
-                            btnOption3?.backgroundColor = UIColor.rojo
+                            btnOption2?.backgroundColor = ColorsModel.verde_st
+                            btnOption3?.backgroundColor = ColorsModel.rojo
                         }
                         else {
-                            btnOption3?.backgroundColor = UIColor.verde
-                            btnOption2?.backgroundColor = UIColor.rojo
+                            btnOption3?.backgroundColor = ColorsModel.verde_st
+                            btnOption2?.backgroundColor = ColorsModel.rojo
                         }
                     }
                     else {
                         if (currentTitleOP2 == model2and3.thirdParagraphAns.uppercased()) {
-                            btnOption2?.backgroundColor = UIColor.verde
-                            btnOption3?.backgroundColor = UIColor.rojo
+                            btnOption2?.backgroundColor = ColorsModel.verde_st
+                            btnOption3?.backgroundColor = ColorsModel.rojo
                         }
                         else {
-                            btnOption3?.backgroundColor = UIColor.verde
-                            btnOption2?.backgroundColor = UIColor.rojo
+                            btnOption3?.backgroundColor = ColorsModel.verde_st
+                            btnOption2?.backgroundColor = ColorsModel.rojo
                         }
                     }
                 }
@@ -284,9 +284,9 @@ class StoryQuestionViewController: UIViewController {
                 btnFirstOption.isEnabled = true
                 btnSecondOption.isEnabled = true
                 btnThirdOption.isEnabled = true
-                btnFirstOption.backgroundColor = UIColor.verdePa
-                btnSecondOption.backgroundColor = UIColor.naranja
-                btnThirdOption.backgroundColor = UIColor.azul
+                btnFirstOption.backgroundColor = ColorsModel.verdePa
+                btnSecondOption.backgroundColor = ColorsModel.naranjaP
+                btnThirdOption.backgroundColor = ColorsModel.azul_st
 
             }
             else {
@@ -313,9 +313,9 @@ class StoryQuestionViewController: UIViewController {
                 btnFirstOption.isEnabled = true
                 btnSecondOption.isEnabled = true
                 btnThirdOption.isEnabled = true
-                btnFirstOption.backgroundColor = UIColor.verdePa
-                btnSecondOption.backgroundColor = UIColor.naranja
-                btnThirdOption.backgroundColor = UIColor.azul
+                btnFirstOption.backgroundColor = ColorsModel.verdePa
+                btnSecondOption.backgroundColor = ColorsModel.naranjaP
+                btnThirdOption.backgroundColor = ColorsModel.azul_st
 
             }
             else {

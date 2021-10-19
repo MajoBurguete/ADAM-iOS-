@@ -11,18 +11,6 @@
 import Foundation
 import UIKit
 
-
-extension UIColor {
-    static let amarillo: UIColor = UIColor(named: "amarillo_r")!
-    static let azul: UIColor = UIColor(named: "azul_fuerte_r")!
-    static let cafe: UIColor = UIColor(named: "cafe_r")!
-    static let morado: UIColor = UIColor(named: "morado_r")!
-    static let naranja: UIColor = UIColor(named: "naranja_r")!
-    static let rojo: UIColor = UIColor(named: "rojo_r")!
-    static let rosa: UIColor = UIColor(named: "rosa_r")!
-    static let verde: UIColor = UIColor(named: "verde_r")!
-}
-
 //Esta clase representa el Modelo para el nivel de dificultad "fácil" del juego "Arcoiris"
 class RainbowModelNVL1 {
     //Se instancian todas las variables necesarias para el sistema del Modelo
@@ -58,14 +46,14 @@ class RainbowModelNVL1 {
     ]
     //"ColorValues" almacena todos los valores enteros existentes en el xml de colores
     let colorValues: [UIColor] = [
-        .amarillo,
-        .azul,
-        .cafe,
-        .morado,
-        .naranja,
-        .rojo,
-        .rosa,
-        .verde
+        ColorsModel.amarillo,
+        ColorsModel.azul,
+        ColorsModel.cafe,
+        ColorsModel.morado,
+        ColorsModel.naranja,
+        ColorsModel.rojo,
+        ColorsModel.rosa,
+        ColorsModel.verde
     ]
 
     //El método "randomIndex" recibe un entero y regresa un aleatorio desde cero hasta ese valor

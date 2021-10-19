@@ -27,6 +27,7 @@
 		647B8426271CA6FF0095B774 /* StoryModelNVL2And3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */; };
 		64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64866BF1271A3E550000E0E0 /* PauseViewController.swift */; };
 		64866BF4271A420D0000E0E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640016D926DB45B400B8BEC6 /* Assets.xcassets */; };
+		6486D546271E3EA7008ED620 /* ColorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486D545271E3EA7008ED620 /* ColorsModel.swift */; };
 		6487D6A0270C1A65006569F0 /* silka-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64C06B8B270ADD6B00BEBE7A /* silka-light-webfont.ttf */; };
 		6487D6A1270C1A67006569F0 /* silka-bold-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 648B8F6E270C167200183127 /* silka-bold-webfont.ttf */; };
 		6487D6A2270C1A6F006569F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640016DB26DB45B400B8BEC6 /* LaunchScreen.storyboard */; };
@@ -81,6 +82,7 @@
 		6463D97426DDFC77008D6B91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		647B8425271CA6FF0095B774 /* StoryModelNVL2And3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModelNVL2And3.swift; sourceTree = "<group>"; };
 		64866BF1271A3E550000E0E0 /* PauseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		6486D545271E3EA7008ED620 /* ColorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsModel.swift; sourceTree = "<group>"; };
 		648B62CF271165FE00F6DD3E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		648B8F6E270C167200183127 /* silka-bold-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-bold-webfont.ttf"; sourceTree = "<group>"; };
 		6493C7E12718F37800B138D6 /* silka-medium-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silka-medium-webfont.ttf"; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				64C6B8FC271D1E630096ED70 /* ShapesModelNVL1.swift */,
 				64E933F0271D4FC000CDB9A1 /* ShapesModelNVL2.swift */,
 				64E933F2271D4FEA00CDB9A1 /* ShapesModelNVL3.swift */,
+				6486D545271E3EA7008ED620 /* ColorsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				640016D526DB45B100B8BEC6 /* MainViewController.swift in Sources */,
 				4D32E673271BB1E5004ABC67 /* rainbowModelNVL2.swift in Sources */,
 				64C11B8627198AAC0064399B /* SignupViewController.swift in Sources */,
+				6486D546271E3EA7008ED620 /* ColorsModel.swift in Sources */,
 				64AA9491271A8C0B00A19510 /* ShapesNVL3ViewController.swift in Sources */,
 				64866BF2271A3E550000E0E0 /* PauseViewController.swift in Sources */,
 				4DFDACD6271D1D5000E6C182 /* RainbowModelNVL1.swift in Sources */,
@@ -501,13 +505,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DLLUF935SW;
+				DEVELOPMENT_TEAM = G2UH455NP2;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01732313.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
@@ -526,13 +530,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DLLUF935SW;
+				DEVELOPMENT_TEAM = G2UH455NP2;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01732313.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.A01730344.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";

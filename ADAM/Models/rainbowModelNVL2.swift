@@ -10,13 +10,6 @@
 import Foundation
 import UIKit
 
-extension UIColor {
-    static let celeste: UIColor = UIColor(named: "celeste_r")!
-    static let beige: UIColor = UIColor(named: "beige_r")!
-    static let fucsia: UIColor = UIColor(named: "fucsia_r")!
-    static let menta: UIColor = UIColor(named: "menta_R")!
-}
-
 //Esta clase representa el Modelo para el nivel de dificultad "Intermedia" del juego "Arcoiris"
 class RainbowModelNVL2 {
     
@@ -63,18 +56,18 @@ class RainbowModelNVL2 {
        ]
     //"ColorValues" almacena todos los valores enteros existentes en el xml de colores
     let colorValues: [UIColor] = [
-        .amarillo,
-        .azul,
-        .cafe,
-        .morado,
-        .naranja,
-        .rojo,
-        .rosa,
-        .verde,
-        .celeste,
-        .beige,
-        .fucsia,
-        .menta
+        ColorsModel.amarillo,
+        ColorsModel.azul,
+        ColorsModel.cafe,
+        ColorsModel.morado,
+        ColorsModel.naranja,
+        ColorsModel.rojo,
+        ColorsModel.rosa,
+        ColorsModel.verde,
+        ColorsModel.celeste,
+        ColorsModel.beige,
+        ColorsModel.fucsia,
+        ColorsModel.menta
     ]
     //El método "randomIndex" recibe un entero y regresa un aleatorio desde cero hasta ese valor
     func RandomIndex(value: Int) -> Int{
