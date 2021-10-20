@@ -98,5 +98,18 @@ class SettingsViewController: UIViewController {
         alert.addAction(returnAction)
         present(alert, animated: true, completion: nil)
     }
+    @IBAction func btnInfo(_ sender: Any) {
+        let alert = UIAlertController(title: "Aplicación desarrollada por:", message: "Aarón Cortés García\nMarco Flamenco Andrade\nMaría José Burguete Euán\nDaniela Hernández y Hernández", preferredStyle: .alert)
+        let okayAction = UIAlertAction(title: "Regresar", style: .default) {
+            action in print(action) }
+        let logoClient = UIImageView(frame: CGRect(x: -40, y: 180, width: 180, height: 180))
+        logoClient.image = UIImage(named: "logo.png")
+        let logoSchool = UIImageView(frame: CGRect(x: 170, y: 200, width: 100, height: 145))
+        logoSchool.image = UIImage(named: "tec_logo.png")
+        alert.view.addSubview(logoSchool)
+        alert.view.addSubview(logoClient)
+        alert.addAction(okayAction)
+        present(alert, animated: true, completion: nil)
+    }
 }
 
