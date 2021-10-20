@@ -190,6 +190,7 @@
                                         <fragment content="¡Entrar!">
                                             <attributes>
                                                 <font key="NSFont" size="25" name="Silka-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -384,6 +385,7 @@
                                         <fragment content="Eliminar perfil">
                                             <attributes>
                                                 <font key="NSFont" size="20" name="Silka-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -404,6 +406,7 @@
                                         <fragment content="Guardar">
                                             <attributes>
                                                 <font key="NSFont" size="24" name="Silka-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -862,7 +865,7 @@
                                         <fragment content="Seguir">
                                             <attributes>
                                                 <font key="NSFont" size="26" name="Silka-Bold"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
                                         </fragment>
                                     </attributedString>
@@ -906,8 +909,15 @@
                                         <state key="normal" title="Verde">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <buttonConfiguration key="configuration" style="filled" title="confundidos" cornerStyle="medium" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="23"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="confundidos">
+                                                    <attributes>
+                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -921,8 +931,15 @@
                                         <state key="normal" title="Naranja">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <buttonConfiguration key="configuration" style="filled" title="Miau" cornerStyle="medium" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="23"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Miau">
+                                                    <attributes>
+                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -936,8 +953,15 @@
                                         <state key="normal" title="Azul">
                                             <color key="titleColor" red="0.99988085029999996" green="1" blue="0.99987941979999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <buttonConfiguration key="configuration" style="filled" title="uwu" cornerStyle="medium" titleAlignment="center">
-                                            <fontDescription key="titleFontDescription" name="Silka-Medium" family="Silka" pointSize="23"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="medium" titleAlignment="center">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="uwu">
+                                                    <attributes>
+                                                        <font key="NSFont" size="23" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -1730,7 +1754,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HES-fz-55n">
-                                <rect key="frame" x="365" y="399" width="44" height="44"/>
+                                <rect key="frame" x="365" y="382" width="44" height="44"/>
                                 <state key="normal" image="forward">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
@@ -2065,6 +2089,7 @@
                                                 <fragment content=" Checar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2082,6 +2107,7 @@
                                                 <fragment content=" Seguir">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2099,6 +2125,7 @@
                                                 <fragment content=" Limpiar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2277,6 +2304,7 @@
                                                 <fragment content=" Checar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2294,6 +2322,7 @@
                                                 <fragment content=" Seguir">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2311,6 +2340,7 @@
                                                 <fragment content=" Limpiar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2658,6 +2688,7 @@
                                                 <fragment content=" Checar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2675,6 +2706,7 @@
                                                 <fragment content=" Seguir">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2692,6 +2724,7 @@
                                                 <fragment content=" Limpiar">
                                                     <attributes>
                                                         <font key="NSFont" size="21" name="Silka-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -2867,15 +2900,15 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="NNT-yT-WQs"/>
-        <segue reference="5ss-DV-piH"/>
-        <segue reference="laN-GN-n29"/>
+        <segue reference="nRt-5z-yG5"/>
+        <segue reference="EKp-D4-NyL"/>
         <segue reference="Pm2-2h-raU"/>
-        <segue reference="1co-br-fgc"/>
+        <segue reference="fdF-OL-jGq"/>
         <segue reference="lOH-PC-wy0"/>
         <segue reference="8eF-My-BDU"/>
         <segue reference="PZ3-Uy-qg1"/>
         <segue reference="O4E-Zn-nry"/>
-        <segue reference="x4n-lE-iqE"/>
+        <segue reference="wxR-Xg-HnK"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="15" width="153" height="153"/>
