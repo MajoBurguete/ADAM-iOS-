@@ -86,7 +86,7 @@ class SettingsViewController: UIViewController {
             action in
             modelManagerS.deleteUser(userNum: user.userNum)
             if modelManagerS.countUsers() > 0 {
-                performSegue(withIdentifier: "toHomeFromS", sender: nil)
+                performSegue(withIdentifier: "toMainFromS", sender: nil)
             }
             else {
                 performSegue(withIdentifier: "toSignUpFromS", sender: nil)
