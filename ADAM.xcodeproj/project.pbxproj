@@ -501,13 +501,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2UH455NP2;
+				DEVELOPMENT_TEAM = DLLUF935SW;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.MajoBurguete.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.f.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";
@@ -526,13 +526,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G2UH455NP2;
+				DEVELOPMENT_TEAM = DLLUF935SW;
 				INFOPLIST_FILE = ADAM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.MajoBurguete.ADAM;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.tec.f.ADAM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADAM-Bridging-Header.h";

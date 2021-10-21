@@ -171,6 +171,7 @@ class ShapesNVL3ViewController: UIViewController {
             let destinationVC = segue.destination as? GameOverViewController
             destinationVC?.score = score
             destinationVC?.newHigh = newHigh
+            destinationVC?.game = "formitas"
         }
       
     }
